@@ -1,6 +1,7 @@
 import argparse
 import os
 import re
+import sys
 
 
 class ChapterLine:
@@ -75,7 +76,7 @@ def get_sorted_word_meanings(chapter_line):
     return sorted_word_meanings
 
 
-def main(source_dir):
+def main(source_dir, only_english_translate):
     chapter_lines = []
     words_found = []
     words, word_meanings = word_meaning_translation(source_dir)
@@ -98,32 +99,8 @@ def main(source_dir):
     words_not_found = [word_not_found for word_not_found in words if word_not_found not in words_found]
     print("words not found")
     print("\n".join(words_not_found))
+    print("==========================\n")
     with open(source_dir + "/output.html", 'w', encoding="UTF-8") as html_w:
-        # for chapter_line in chapter_lines:
-        #     pointer = 0
-        #     if len(chapter_line.word_meanings):
-        #         sentence_p = "<p>"
-        #         meaning_p = "<p>"
-        #         sentence = ""
-        #         sorted_word_meanings = get_sorted_word_meanings(chapter_line)
-        #         for word_meaning in sorted_word_meanings:
-        #             sentence_p += "<td style='font-size:14px'>" + chapter_line.line[pointer:word_meaning.PosStart] + "</td>"
-        #             meaning_p += "<td>&nbsp;</td>"
-        #             sentence_p += "<td align='center' style='font-size:14px'>" + chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd] + "</td>"
-        #             meaning_p += "<td style='font-size:11px'>(" + word_meaning.Meaning + " - " + word_meaning.Translation + ")</td>"
-        #             sentence += chapter_line.line[pointer:word_meaning.PosStart] + chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd]
-        #             pointer = word_meaning.PosEnd
-        #         sentence += chapter_line.line[pointer:]
-        #         sentence_p += "<td>" + chapter_line.line[pointer:] + "।</td></tr>"
-        #         meaning_p += "<td>&nbsp;</td></tr>"
-        #         html_w.write(meaning_p)
-        #         html_w.write(sentence_p)
-        #         if sentence != chapter_line.line:
-        #             print(sentence)
-        #             print(chapter_line.line)
-        #     else:
-        #         html_w.write("<tr><td>" + chapter_line.line + "।</td>")
-        #     html_w.write("</table>")
        for chapter_line in chapter_lines:
             html_w.write("<table>")
             pointer = 0
@@ -133,14 +110,18 @@ def main(source_dir):
                 sentence = ""
                 sorted_word_meanings = get_sorted_word_meanings(chapter_line)
                 for word_meaning in sorted_word_meanings:
-                    sentence_tr += "<td style='font-size:14px'>" + chapter_line.line[pointer:word_meaning.PosStart] + "</td>"
+                    sentence_tr += "<td style='font-size:14px'>" + chapter_line.line[pointer:word_meaning.PosStart]\
+                                                                                                            + "</td>"
                     meaning_tr += "<td>&nbsp;</td>"
-                    sentence_tr += "<td align='center' style='font-size:14px;font; font-weight:bold;'>" + chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd] + "</td>"
-                    if word_meaning.Meaning:
-                        meaning_tr += "<td style='font-size:11px'>(" + word_meaning.Meaning + " - " + word_meaning.Translation + ")</td>"
+                    sentence_tr += "<td align='center' style='font-size:14px;font; font-weight:bold;'>" +\
+                                   chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd] + "</td>"
+                    if word_meaning.Meaning and only_english_translate:
+                        meaning_tr += "<td style='font-size:11px'>(" + word_meaning.Meaning + " - " +\
+                                      word_meaning.Translation + ")</td>"
                     else:
                         meaning_tr += "<td style='font-size:11px'>(" + word_meaning.Translation + ")</td>"
-                    sentence += chapter_line.line[pointer:word_meaning.PosStart] + chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd]
+                    sentence += chapter_line.line[pointer:word_meaning.PosStart] +\
+                                chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd]
                     pointer = word_meaning.PosEnd
                 sentence += chapter_line.line[pointer:]
                 sentence_tr += "<td>" + chapter_line.line[pointer:] + "।</td></tr>"
@@ -148,8 +129,11 @@ def main(source_dir):
                 html_w.write(meaning_tr)
                 html_w.write(sentence_tr)
                 if sentence != chapter_line.line:
-                    print(sentence)
+                    print("*********The original sentence:*********")
                     print(chapter_line.line)
+                    print("*********is different from translated line*********")
+                    print(sentence)
+                    print("************************")
             else:
                 html_w.write("<tr><td>" + chapter_line.line + "।</td>")
             html_w.write("</table>")
@@ -158,9 +142,14 @@ def main(source_dir):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-sd", "--sourcedir", help="Please enter a source dir as argument")
+    # to tranlate only to english (not output Hindi word-meaning), use following switch
+    # set oe = 1 to only include English translation. Use 0 (or don't include this swtich) to include Hindi word-meaning
+    parser.add_argument("-oe", "--onlyenglish", help="Please enter True/False if you want to translate only to English")
     args = parser.parse_args()
     try:
-        main(args.sourcedir)
-    except FileNotFoundError as fnfe:
-        print(fnfe)
+        main(args.sourcedir, bool(args.onlyenglish))
+    except FileNotFoundError as file_not_found_error:
+        print(file_not_found_error)
+    except:
+        print(sys.exc_info()[0])
     print("all done!")

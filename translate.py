@@ -8,29 +8,26 @@ def main(source_dir):
     with open(source_dir + "/word-meaning.txt", 'r', encoding="UTF-8") as word_meaning_r:
         reader = csv.DictReader(word_meaning_r, delimiter='|')
         with open(source_dir + "/word-meaning-trans.txt", 'w', encoding="UTF-8") as word_meaning_w:
+            counter = 0
             for row in reader:
+                counter += 1
+                if counter == 57:
+                    print(0)
                 # if meaning is available and not translation, then translate from meaning
                 # if meaning and translation are not available, then translate from word
                 # if meaning and translation are both available, do nothing
-
+                translation = row['translation']
                 if row['meaning'] and not row['translation']:
-                    translation = translator.translate(row['meaning'], dest='en', src='hi')
+                    trans = translator.translate(row['meaning'], dest='en', src='hi')
+                    translation = trans.text
                 elif not row['meaning'] and not row['translation']:
-                    translation = translator.translate(row['word'], dest='en', src='hi')
-                
-                    row['meaning'] = tra
-                stripped_line = line.strip()
-                if stripped_line:
-                    parts = stripped_line.split("|")
-                    if len(parts) == 2:
-                        word, meaning = parts
-
-                        word_meaning_w.write(word + "|" + meaning + "|" + translation.text + "\n")
-                    else:
-                        word, meaning, translate = parts
-                        word_meaning_w.write(word + "|" + meaning + "|" + translate + "\n")
-                    print(word)
-
+                    trans = translator.translate(row['word'], dest='en', src='hi')
+                    translation = trans.text
+                if row['meaning']:
+                    word_meaning_w.write(row['word'] + "|" + row['meaning'] + "|" + translation + "\n")
+                else:
+                    word_meaning_w.write(row['word'] + "||" + translation + "\n")
+                print(row['word'])
 
 
 if __name__ == "__main__":

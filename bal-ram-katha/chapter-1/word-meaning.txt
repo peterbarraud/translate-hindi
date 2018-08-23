@@ -1,96 +1,133 @@
 word|meaning|translation
-दर्शनीय|देखने योग्य
-भव्य|शानदार
+दर्शनीय|देखने योग्य|Worth seeing
+भव्य|शानदार|Amazing
 इमारत|भवन|building
-लबालब|पूरी तरह से भरा हुआ
-संपन्न|खुशहाल
-विपन्नता|गरीबी
-विलक्षण|विचित्र
-योद्धा|युद्ध में निपूर्ण
+लबालब|पूरी तरह से भरा हुआ|Fully loaded
+संपन्न|खुशहाल|Happy
+विपन्नता|गरीबी|Poverty
+विलक्षण|विचित्र|strange
+योद्धा|युद्ध में निपूर्ण|In the war
 उत्तराधिकारी|वारिस|heir
-मर्यादाओं|नियम
-आयु|उम्र
+मर्यादाओं|नियम|Rule
+आयु|उम्र|Ages
 सलाह|राय|advice
-पुत्रेष्टि यज्ञ|पुत्र प्रापित हेतु यज्ञ
-तमाम|सभी
-आहुति|हवं सामग्री को योग्यकुण्ड की आम में डालना
+पुत्रेष्टि यज्ञ|पुत्र प्रापित हेतु देवपूजा|God worship
+तमाम|सभी|All
+आहुति|हवं सामग्री को योग्यकुण्ड की आम में डालना|Havan material
 मनोकामना|मन की इच्छा|wish
-प्रजा|जनता
-सम्मान|आदर
-कुशल|निपूर्ण
-दक्ष|कुशल
-अर्जित|एकत्र किया हुआ
-कुशाग्र|तेज बुद्धि वाला
-विवेक|बुद्धि
-शालीनता|नम्रता
-न्यायप्रियता|न्याय करने वाला
-परिजनों|परिवार के लोग
-अगवानी|आगे बढ़कर स्वागत करना
-स्वयं|खुद
-उम्मीद|आशा
-दुविधा|संकोच
-आशंका|दर
-सशंकित|शंका से भरा हुआ
-अनिष्ट|हानि
-व्यक्त|प्रकट
-खिन्न|उदास
-विद्याएँ|वियोग
-आग्रह|निवेदन
-नितांत|बिलकुल
-स्वस्तिवचन|मंगल वचन
-अविलंब|तुरंत
-बीहड़|निर्जन
-कथा|लंबी कहानी
-अति|बहुत
+प्रजा|जनता|public
+सम्मान|आदर|Respect
+कुशल|निपूर्ण|Incomplete
+दक्ष|कुशल|Skilled
+अर्जित|एकत्र किया हुआ|Collected
+कुशाग्र|तेज बुद्धि वाला|Sharp-witted
+विवेक|बुद्धि|wisdom
+शालीनता|नम्रता|Meekness
+न्यायप्रियता|न्याय करने वाला|Judges
+परिजनों|परिवार के लोग|Family members
+अगवानी|आगे बढ़कर स्वागत करना|Go ahead and welcome
+स्वयं|खुद|Myself
+उम्मीद|आशा|hope
+दुविधा|संकोच|Hesitation
+आशंका|दर|rate
+सशंकित|शंका से भरा हुआ|Dilemma
+अनिष्ट|हानि|Loss
+व्यक्त|प्रकट|Manifest
+खिन्न|उदास|Sad
+विद्याएँ|वियोग|Separation
+आग्रह|निवेदन|Request
+नितांत|बिलकुल|deeply
+स्वस्तिवचन|मंगल वचन|Tangle word
+अविलंब|तुरंत|Immediately
+बीहड़|निर्जन|Secluded
+कथा|लंबी कहानी|Long story
+अति|बहुत|very
  लायक|योग्य|worth
-आलीशान|शानदार
+आलीशान|शानदार|Amazing
 सरोवर|झील|lake
-लहराती
+लहराती||Wavy
 राजमहल||palace
 हरियाली||greenery
-शफ़सलें
+शफ़सलें||crop
 पता||address
 सीमा||border
 प्रवेश||entry
 अनुमति||permission
-अद्भुत
-मनोरम
-भला
-वंशज
-रीति-नीति
-प्रभाव
-सुख-समृद्धि
-बात-व्यवहार
-पालन|follow
-सदाचारी
-पवित्रता
-शांति|peace
-यशस्वी
-प्रश्न
-उभर|age
-सालता
+अद्भुत||wonderful
+मनोरम||captivating
+भला||Good
+वंशज||Descendant
+रीति-नीति||Customary policy
+प्रभाव||effect
+बात-व्यवहार||Talking
+पालन||follow
+सदाचारी||Good-natured
+पवित्रता||Sanctity
+शांति|peace|peace
+यशस्वी||Successful
+प्रश्न||questions
+उभर|age|age
+सालता||Salata
 संतान||family
 लगातार||continuously
 सूना-सूना||empty
-प्रायः
+प्रायः||mostly
 विषय||topic
-संबंध
-चर्चा
-विस्तार
-यज्ञ
+संबंध||relation
+चर्चा||discussion
+विस्तार||Expand
 अवश्य||definitely
 देखरेख||guidance
 यज्ञशाला||place for यज्ञ
-निमंत्रित
-पधारे
-शंखध्वनि
-मंत्रेच्चार
+निमंत्रित||Invited
+पधारे||welcome
+शंखध्वनि||Conch shell
+मंत्रेच्चार||Mantra
 अग्नि के देवता||god of fire
 आशीर्वाद||blessing
 पुत्रवती||pregnant
 बधाइयाँ||congratulations
-मंगलगीत
+मंगलगीत||Melody
 उत्सव जैसा दृश्य||festive atomosphere
-समारोह
-आयोजित
-आयोजन
+समारोह||ceremony
+आयोजित||held
+आयोजन||arrangement
+धन||money
+विदा किया||said goodbye
+सुदर्शन||nice to look at
+आज्ञा||command
+शिक्षा-दीक्षा||education
+विद्या||knowledge
+ज्येष्ठ||eldest
+मानवीय||human
+गुणों||qualities
+विवाह||marriage
+बिखरी||spread
+समृद्ध||rich
+अनाज||food
+शस्त्र||weapons
+तुणीर||quiver
+धनुष||bow
+सँभाले||handled
+बिछोह||separation
+तर्कों||angles
+सिद्ध||perfect
+पुरुष||human
+तपस्वी||holy person
+गुप्त विद्याओं||hidden knowledge
+जानकार||knowing
+विद्याएँ||teachings
+सौंप||hand over
+स्वीकार||agree
+तत्काल||immediately
+दरबार||court
+निर्णय||decision
+सूचना||information
+सहर्ष||readily
+आदर सहित||respectfully
+गंभीर||serious
+माहौल||atomosphere
+नगाड़े||drums
+भावुक||emotional
+मस्तक सूँघकर||touch head
+विलंब||delay
