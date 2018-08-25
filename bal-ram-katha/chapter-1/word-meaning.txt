@@ -131,3 +131,6 @@ word|meaning|translation
 भावुक||emotional
 मस्तक सूँघकर||touch head
 विलंब||delay
+राज्य||kingdom
+राजधानी||capital
+पुत्र||son

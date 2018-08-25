@@ -6,6 +6,97 @@ word|meaning|translation
 घुमाव||curve
 पीछे छूट||left behind
 आखिरी||last
-बस्ती||colony
-तीखा||sharp
+बस्ती|गाँव|colony
+तीखा|तेज़|sharp
 मोड़||turn
+दृष्टि|नज़र|view
+ओझल||disappear
+नजर||vision
+मोड़|घूमना|turn
+चेहरों|मुख|face
+अचानक|एकाएक|suddenly
+बसेरे|रहने का स्थान
+प्रहार|आक्रमण|attack
+बिस्तर|बिछावन|bed
+संगम|जहा दो नदियां मिलती हैं|meeting of two river
+अंतर|फ़र्क|difference
+कर्कश|कठोर|gruff
+ध्वनि|आवाज
+आश्वस्त|भरोसा
+प्रत्यंचा|धनुष की डोरी
+क्रोध|गुस्सा
+विधि|उपाय|method
+भयमुक्त|बिना दर के
+अनुष्ठान|यज्ञ
+चौकस|सावधान
+धावा बोल|हमला करना
+मूर्छित होना|बेहोश होना
+भगदड़|खलबली मचना
+तूणीर|तरकश
+अद्भुत|अनोखा
+व्यवस्था|इंतजाम
+उद्यान|बगीचा
+अनुचर|नौकर
+लज्जित|शर्मिदा
+हतप्रभ|हैरान
+योग्य|लायक
+अनुमति|इजाजत
+पुत्र-वधु|पुत्र की पत्नी
+लगातार|निरंतर
+निर्विघ्न|बिना रूकावट के|restless
+तोरणद्वार||archway
+बाण||arrow
+सधे||measured
+चिह्न||sign
+उत्साह||excited
+चिडि़यों के झुंड||flock of birds
+मटमैला||musty (dull)
+चरवाहे||shepards
+नदी तट||river bank
+विश्राम||rest
+चेहरे के भाव||expressions on their faces
+मुसकराए||smiled
+विद्याएँ||skills
+बला-अतिबला||strong minded
+तिनकों||twigs
+मार्ग||route
+आश्रमों||place for religious people to live
+वृक्षों-वनस्पतियों||mangrove
+संबंध||about
+स्थानीय इतिहास||local history
+शामिल||included
+यात्र||journey
+कठिन||difficult
+उचित||suitable
+नाव||boat
+घना||dense
+दुर्गम||inaccessible
+डरावना||scary
+झींगुरों||crickets
+दहाड़||roar
+शोभा||beauty
+असली||real
+खतरा||danger
+मिटा||erase
+राक्षसी ताड़का||demon Tadka
+वन||jungle
+आज्ञा||command
+टँकार||noise
+गरजती||roaring
+दौड़ी||she ran
+भड़क||grew
+तूफ़ान||storm
+विशालकाय||giant
+काँप||tremble
+बरसाने||rain down
+हृदय||heart
+अस्त्र-शस्त्र||weapons
+महत्त्व||importance
+अधिक||more
+तय||fixed
+निर्णय||decide
+भय||fear
+बिताई||spend
+भयमुक्त||free of fear
+गायब||disappear
+गुजरती||pass
