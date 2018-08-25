@@ -2,7 +2,7 @@ word|meaning|translation
 बढ़े||moved forward
 निकट||close by
 किनारे-किनारे||close to
-दक्षिणी तट||south coast
+दक्षिणी तट||southern coast
 घुमाव||curve
 पीछे छूट||left behind
 आखिरी||last
@@ -15,35 +15,35 @@ word|meaning|translation
 मोड़|घूमना|turn
 चेहरों|मुख|face
 अचानक|एकाएक|suddenly
-बसेरे|रहने का स्थान
+बसेरे|रहने का स्थान|place to stay
 प्रहार|आक्रमण|attack
 बिस्तर|बिछावन|bed
 संगम|जहा दो नदियां मिलती हैं|meeting of two river
 अंतर|फ़र्क|difference
 कर्कश|कठोर|gruff
-ध्वनि|आवाज
-आश्वस्त|भरोसा
-प्रत्यंचा|धनुष की डोरी
-क्रोध|गुस्सा
+ध्वनि|आवाज|Voice
+आश्वस्त|भरोसा|Trust
+प्रत्यंचा|धनुष की डोरी|bow string
+क्रोध|गुस्सा|anger
 विधि|उपाय|method
-भयमुक्त|बिना दर के
-अनुष्ठान|यज्ञ
-चौकस|सावधान
-धावा बोल|हमला करना
-मूर्छित होना|बेहोश होना
-भगदड़|खलबली मचना
-तूणीर|तरकश
-अद्भुत|अनोखा
-व्यवस्था|इंतजाम
-उद्यान|बगीचा
-अनुचर|नौकर
-लज्जित|शर्मिदा
-हतप्रभ|हैरान
-योग्य|लायक
-अनुमति|इजाजत
-पुत्र-वधु|पुत्र की पत्नी
-लगातार|निरंतर
-निर्विघ्न|बिना रूकावट के|restless
+भयमुक्त|बिना दर के|Without rate
+अनुष्ठान|यज्ञ|Yajna
+चौकस|सावधान|watchful
+धावा बोल|हमला करना|to attack
+मूर्छित होना|बेहोश होना|to faint
+भगदड़|खलबली मचना|panic
+तुणिर|तरकश|Quiver
+अद्भुत|अनोखा|unique
+व्यवस्था|इंतजाम|Arrangement
+उद्यान|बगीचा|garden
+अनुचर|नौकर|servant
+लज्जित|शर्मिदा|Embarrassed
+हतप्रभ|हैरान|astonished
+योग्य|लायक|worth
+अनुमति|इजाजत|Permission
+पुत्र-वधु|पुत्र की पत्नी|Son's wife
+लगातार|निरंतर|Continuous
+निर्विघ्न|बिना रूकावट के|without interuption
 तोरणद्वार||archway
 बाण||arrow
 सधे||measured
@@ -100,3 +100,71 @@ word|meaning|translation
 भयमुक्त||free of fear
 गायब||disappear
 गुजरती||pass
+सरसराहट||rustle
+चहचहाहट||twitter
+तसवीर||picture
+अंतिम||last
+पड़ाव||stop
+मनोहारी||beautiful
+प्राकृतिक||nature
+सौंदर्य||beauty
+आनंद||enjoyment
+आश्रमवासियों||people of आश्रम
+अगवानी||reception
+अभिनंदन||congratulate
+प्रसन्नता||happiness
+दुगुनी||doubled
+आगमन||arrival
+तैयारियों||preparations
+अनुष्ठान||ritual
+प्रारंभ||started
+रक्षा||protection
+सौंपकर||hand over
+चरण||step
+उपस्थिति||presense
+अवसर||opportunity
+शिष्यों||students
+राजकुमारों||princes
+स्वागत||welcome
+चकित||stunned
+स्वयं||himself
+धनुष||bow
+स्थिति||situation
+आसमान||sky
+दल-बल|team force|team force
+अलावा||besides
+कार्रवाई||action
+वेग||speed
+दक्षिण||south
+प्राण||life
+चीखते-चिल्लाते|screaming|screaming
+अन्य||others
+प्रणाम||greet respectfully
+गले लगाया||hug
+दरबार||court
+आयोजन||arrangement
+हिस्सा लेने||take part
+आकर्षण||attraction
+खिचता||pulled
+ठहरने||stay
+आमंत्रित||invited
+विशाल||huge
+पेटी||box
+असंभव||impossible
+सहारे||help
+खिसकाकर||drag
+उदास||sad
+प्रतिज्ञा||promise
+संकेत||sign
+वत्स||child
+स्वीकार||accept
+सहज||easily
+उपस्थित||present
+अवश्य||definitely
+झुकाया||bent
+सन्नाटा||silence
+सभागार||hall
+चुप्पी||silence
+ठिकाना||place
+वर||groom
+आक्रमण||attack
