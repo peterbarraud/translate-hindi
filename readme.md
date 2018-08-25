@@ -17,3 +17,6 @@ word|meaning|translation
 ```
 <word>||
 ```
+
+# Bal ram katha
+[Online](http://ncertbooks.prashanthellina.com/class_6.Hindi.BalRamKatha/index.html)
