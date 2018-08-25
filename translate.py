@@ -10,9 +10,6 @@ def main(source_dir):
         with open(source_dir + "/word-meaning-trans.txt", 'w', encoding="UTF-8") as word_meaning_w:
             counter = 0
             for row in reader:
-                counter += 1
-                if counter == 57:
-                    print(0)
                 # if meaning is available and not translation, then translate from meaning
                 # if meaning and translation are not available, then translate from word
                 # if meaning and translation are both available, do nothing

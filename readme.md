@@ -17,6 +17,10 @@ word|meaning|translation
 ```
 <word>||
 ```
-
+### Important:
+The translate.py does not do word-meaning. That means, you have to do word-meaning manually.
+So, a line like this will not generate meaning of "work":
+```
+<word>||<translation>
 # Bal ram katha
 [Online](http://ncertbooks.prashanthellina.com/class_6.Hindi.BalRamKatha/index.html)
