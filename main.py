@@ -51,10 +51,11 @@ class WordMeaningDetails:
 
 
 def word_meaning_translation(source_dir):
-    if os.path.exists(source_dir + "/word-meaning-trans.txt"):
+    trans_file = source_dir + "/../word-meaning-trans.txt"
+    if os.path.exists(trans_file):
         word_meanings_trans = {}
         words = []
-        with open(source_dir + "/word-meaning-trans.txt", 'r', encoding="UTF-8") as word_meaning_r:
+        with open(trans_file, 'r', encoding="UTF-8") as word_meaning_r:
             for line in word_meaning_r:
                 word_meanings_trans[line.rstrip().split("|")[0]] = [line.rstrip().split("|")[0], line.rstrip().split("|")[1], line.rstrip().split("|")[2]]
                 words.append(line.rstrip().split("|")[0])
@@ -84,22 +85,36 @@ def main(source_dir, only_english_translate):
         tag_file_string = text_h.read().replace('\n', ' ')
         # split the file by the पूर्ण विराम
         lines = tag_file_string.split("।")
-        # now the bad one
-        # iterate over the items in the word meanings dict and check thru this list if you have a word that's in this line (horribly inefficient)
+        # changing things around here a bit
+        # we're going to split each chapter line into words
         for line in lines:
             chapter_line = ChapterLine(line)
-            line_words = []
-            for word in words:
-                # match whole words only
-                # but looks like the \b doesn't work on double-byte
-                if re.search("(\s*|-|!|^)" + word + "(\s*|-|!|$)", line, re.I):
-                    words_found.append(word)
-                    chapter_line.add_word_meaning(word_meanings[word])
+            words_in_line = line.split(" ")
+            for word_in_line in words_in_line:
+                if word_in_line in words:
+                    # print(words_in_line)
+                    chapter_line.add_word_meaning(word_meanings[word_in_line])
             chapter_lines.append(chapter_line)
-    words_not_found = [word_not_found for word_not_found in words if word_not_found not in words_found]
-    print("words not found")
-    print("\n".join(words_not_found))
-    print("==========================\n")
+
+        # now the bad one
+        # iterate over the items in the word meanings dict and check thru this list if you have a word that's in this line (horribly inefficient)
+    #     for line in lines:
+    #         chapter_line = ChapterLine(line)
+    #         line_words = []
+    #         for word in words:
+    #             # match whole words only
+    #             # but looks like the \b doesn't work on double-byte
+    #             if re.search("(\s*|-|!|^)" + word + "(\s*|-|!|$)", line, re.I):
+    #                 words_found.append(word)
+    #                 chapter_line.add_word_meaning(word_meanings[word])
+    #         chapter_lines.append(chapter_line)
+    # words_not_found = [word_not_found for word_not_found in words if word_not_found not in words_found]
+    # now we're going to put word meanings into a central file and get them out of there
+    # should reduce the ammount of work we need to do for this and also gives Daniel a better view of things
+    # words mean the same thing no matter where they are
+    # print("words not found")
+    # print("\n".join(words_not_found))
+    # print("==========================\n")
     with open(source_dir + "/output.html", 'w', encoding="UTF-8") as html_w:
        for chapter_line in chapter_lines:
             html_w.write("<table>")
