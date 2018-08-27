@@ -17,7 +17,7 @@ word|meaning|translation
 मनोकामना|मन की इच्छा|wish
 प्रजा|जनता|public
 सम्मान|आदर|Respect
-कुशल|निपुर्ण|Incomplete
+कुशल|निपुर्ण|skilled
 दक्ष|कुशल|skilled
 अर्जित|एकत्र किया हुआ|Collected
 कुशाग्र|तेज बुद्धि वाला|Sharp-witted
@@ -342,3 +342,40 @@ word|meaning|translation
 उखड़||uproot
 भयानक||scary
 विपदा||disaster
+विपत्ति||disaster
+चौंककर||shocking
+अमंगल||disasterous
+हार||neckless
+प्रसन्न||happy
+बुद्धि||intelligence
+मति||brains
+योग्यता||ability
+अधिकार||rights
+अगाध स्नेह||unbelievable affection
+समान||same as
+सर्वदा||always
+फटकार||scolding
+पलंग||bed
+तरस||pity
+दास||man servant
+अनर्थ||disappear
+मूर्खता||stupidity
+तिरस्कार||disgrace
+राजगद्दी||king's throne
+अव्यक्त||hidden
+वरदान||blessing
+वचन||promise
+वनवास||exile
+तमतमाया||flushed (turned red)
+प्रतीक्षा||wait
+भाँप||understood
+कोपभवन||place where an angry woman would go
+प्रिय||favourite
+लक्ष्य||goal
+गहमागहमी||commotion
+प्रतिहारी||chowkidar
+बिखरे||scattered
+गहने||jewelry
+अस्वस्थ||upset
+विनती||beg
+भूमि||ground
