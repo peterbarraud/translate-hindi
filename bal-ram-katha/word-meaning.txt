@@ -29,7 +29,7 @@ word|meaning|translation
 स्वयं|खुद|self
 उम्मीद|आशा|hope
 दुविधा|संकोच|Hesitation
-आशंका|दर|rate
+आशंका|दर|fear
 सशंकित|शंका से भरा हुआ|Dilemma
 अनिष्ट|हानि|Loss
 व्यक्त|प्रकट|Manifest
@@ -284,7 +284,7 @@ word|meaning|translation
 सभागार||hall
 चुप्पी||silence
 ठिकाना||place
-वर||groom
+वर||groom or gift
 आक्रमण||attack
 इच्छा||wish
 राज्याभिषेक||coronation
@@ -368,7 +368,7 @@ word|meaning|translation
 वनवास||exile
 तमतमाया||flushed (turned red)
 प्रतीक्षा||wait
-भाँप||understood
+भाँप||estimate
 कोपभवन||place where an angry woman would go
 प्रिय||favourite
 लक्ष्य||goal
@@ -379,3 +379,108 @@ word|meaning|translation
 अस्वस्थ||upset
 विनती||beg
 भूमि||ground
+घटनाक्रम||events
+यद्यपि||even though
+जिद||insistence
+अड़ी||stuck
+नगरवासी||towns people
+आखिर||in the end
+अभिषेक||to be king
+व्यक्ति||person
+घड़ी||time
+महामंत्री||prime minister
+असहज||uncomfortable
+व्यस्तता||business
+राजभवन||king's place
+शेष||remaining
+अनजान||unknown
+घेर||surround
+दीनहीन||depressed
+भाँपते||estimate
+क्षीण||feeble
+स्वर||voice
+आशंकाएँ||fears (apprehension)
+टालते||avoid
+चमक-दमक||glitter
+कोलाहल||noise (uproar)
+पल||moment
+विस्मित||astonished
+राजसी वस्त्रें||majestic clothes
+सजे-धजे||nicely decorated
+पुष्पवर्षा||celebrations
+बेसुध||delirious (not knowing whats happening)
+अपराध||crime
+शास्त्र-सम्मत||normal
+नीति||traditions
+जारी||continued
+संयत||calm
+दृढ़ता||firmly
+शांत||calm
+सधी||controlled
+वाणी||voice
+पूर्ण||fulfilled
+स्पंदनहीन||motionless
+धिक्कार||curse
+विवरण||description
+सुध||mind
+राजाज्ञा||decree (king's decision)
+अनुचित||unfair
+आवश्यकता||necessary
+नम्रता||humbly
+उल्लंघन||break
+संवाद||contact
+वन-गमन||jungle journey
+भाग्यवश||lucky
+उलटफेर||somersault
+सहमत||agree
+कायरों||cowards
+कायर||coward
+राजसिहासन||throne
+विरोध||oppose
+अधर्म||unrighteous
+सिहासन||throne
+सँभाला||handle
+विदा||depart
+दिशाएँ||directions
+दिशा||direction
+मंगलकारी||good doer
+मंगल||good
+जीवित||alive
+उल्लेख||speak about
+सेवा||service
+निराश||disappointed
+व्याकुल||saddened
+क्रोधित||angry
+प्रतिवाद||protest
+आदेश||order
+अंततः||finally
+स्वीकृति||permission
+शीघ्र||promptly
+प्रयास||try
+पली||brought up
+मुसकरा|||smiled
+पलट||turn
+उदासी ने घर कर लिया||sadness began to live
+बेबस||helpless
+कराह||groan
+मंत्रीगण||ministers
+क्षुब्ध||disturbed
+तर्क||logic
+ज्ञान||Knowledge
+दर्शन||philosophy
+नीति-रीति||ethics
+परंपरा||tradition
+हवाला||mention
+संचार||communication
+वचनबद्ध||have to keep my promise
+विवश||cannot change
+बंदी||prisioner
+राजसि्ांहासन||throne
+वचनों||words
+झकझोर||shake
+आंतरिक पीड़ा||internal pain
+लोभ||greed
+विदाई||saying goodbye
+वल्कल वस्त्र||simple clothes
+राजसी वस्त्र||royal clothes
+
