@@ -117,7 +117,7 @@ def main(source_dir, only_english_translate):
     # print("==========================\n")
     with open(source_dir + "/output.html", 'w', encoding="UTF-8") as html_w:
        for chapter_line in chapter_lines:
-            html_w.write("<table>")
+            html_w.write("<table>\n")
             pointer = 0
             if len(chapter_line.word_meanings):
                 sentence_tr = "<tr>"
@@ -139,8 +139,8 @@ def main(source_dir, only_english_translate):
                                 chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd]
                     pointer = word_meaning.PosEnd
                 sentence += chapter_line.line[pointer:]
-                sentence_tr += "<td>" + chapter_line.line[pointer:] + "।</td></tr>"
-                meaning_tr += "<td>&nbsp;</td></tr>"
+                sentence_tr += "<td>" + chapter_line.line[pointer:] + "।</td></tr>\n"
+                meaning_tr += "<td>&nbsp;</td></tr>\n"
                 html_w.write(meaning_tr)
                 html_w.write(sentence_tr)
                 if sentence != chapter_line.line:
@@ -150,8 +150,8 @@ def main(source_dir, only_english_translate):
                     print(sentence)
                     print("************************")
             else:
-                html_w.write("<tr><td>" + chapter_line.line + "।</td>")
-            html_w.write("</table>")
+                html_w.write("<tr><td>" + chapter_line.line + "।</td></tr>\n")
+            html_w.write("</table>\n")
 
 
 if __name__ == "__main__":

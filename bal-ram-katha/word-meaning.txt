@@ -106,7 +106,6 @@ word|meaning|translation
 बिछोह||separation
 तर्कों||angles
 सिद्ध||perfect
-पुरुष||human
 तपस्वी||holy person
 गुप्त विद्याओं||hidden knowledge
 जानकार||knowing
@@ -345,7 +344,7 @@ word|meaning|translation
 विपत्ति||disaster
 चौंककर||shocking
 अमंगल||disasterous
-हार||neckless
+हार||neckless or lose
 प्रसन्न||happy
 बुद्धि||intelligence
 मति||brains
@@ -483,4 +482,35 @@ word|meaning|translation
 विदाई||saying goodbye
 वल्कल वस्त्र||simple clothes
 राजसी वस्त्र||royal clothes
-
+तपस्वियों||hermit
+तपस्विनी के वेश||clothes of poor person
+दुखदायी||feel sad
+वासी||people of a place
+रथ||chariot
+पुरुष||man or human
+विचलित||saddened
+गति से हाँकने||at greater speed
+गड़ाए||stare
+तट||river bank
+वनवासियों||forest people
+जन्मभूमि||birth place
+गुह||cave
+अतिथि||guest
+क्षेत्र||area
+बेचैन||restless
+बेचैनी||restless
+प्राण त्याग दिए||die
+वियोग||separation
+मंत्रिपरिषद्||council of ministers
+घुड़सवार||mounted on a horse
+दूत||messenger
+रवाना||depart
+निर्देश||instructions
+मौन||silent
+ननिहाल||mother's family
+सर्वथा||completely
+अनभिज्ञ||ignorant
+चि्ांतित||worried
+संगी-साथियों||compaions
+वृक्ष||tree
+राक्षसी||woman demon
