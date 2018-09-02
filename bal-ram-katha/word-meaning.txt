@@ -116,7 +116,8 @@ word|meaning|translation
 निर्णय||decision
 सूचना||information
 सहर्ष||readily
-आदर सहित||respectfully
+आदर||respect
+सहित||with
 गंभीर||serious
 माहौल||atomosphere
 नगाड़े||drums
