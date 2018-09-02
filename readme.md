@@ -24,3 +24,12 @@ So, a line like this will not generate meaning of "work":
 <word>||<translation>
 # Bal ram katha
 [Online](http://ncertbooks.prashanthellina.com/class_6.Hindi.BalRamKatha/index.html)
+
+# Known problems and solutions (workarounds)
+
+## Problem
+You see the following in read Hindi text: \ufeff
+## Issue
+There is a problem with the file encoding
+##Solution
+Open the file in Notepad++ and choose Encoding > Encode in UTF-8
