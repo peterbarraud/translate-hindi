@@ -3,6 +3,21 @@
 
 [English To Hindi Conversion](http://hindi.changathi.com)
 
+# Preparing text file for translation
+The translation program (```main.py```) expects a text file with the name ```text.txt``` in the folder specified in the ```sourcedir``` command line arg
+
+The text.txt should be cleaned as follows:
+Lines in the file must be separated by carriage return (```\n```). So you can have multiple sentences within the same line
+Paragraphs in the file must be separated by double carriage return (```\n\n```).
+
+
+## Using file_prepare.py
+After you get the text from the ```source.pdf``` into a ```source.txt``` file, put double carriage return (```\n\n```) after each paragraph and then run the ```file_prepare.py```
+
+After that, you should break the paras into lines that will fit a printable page
+
+**Hint:**: If you're using Notepad++, recommendation is to make a line ```105 Col max```. This ensure the line doesn't wrap and also reads well
+
 # Word meaning file format
 Pipe separated file with a header of (exactly) this format:
 ```
