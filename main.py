@@ -163,7 +163,7 @@ def main(source_dir, only_english_translate):
                     html_w.write("<tr><td>" + chapter_line.line + "</td></tr>\n")
                 html_w.write("</table>\n")
             # end of para
-            html_w.write("<hr>\n")
+            html_w.write("<div>&nbsp;</div>\n")
 
 
 if __name__ == "__main__":

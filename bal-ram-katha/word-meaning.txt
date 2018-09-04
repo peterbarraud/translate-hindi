@@ -319,7 +319,6 @@ word|meaning|translation
 शुभ||good
 पलक झपकते||blink of an eye
 तैयारियाँ||preparations
-जानकारी||know
 कार्यक्रम||program
 राजधर्म||monarchy
 कुल||kindom
@@ -515,3 +514,4 @@ word|meaning|translation
 संगी-साथियों||compaions
 वृक्ष||tree
 राक्षसी||woman demon
+भव्यता||splendor
