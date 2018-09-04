@@ -67,8 +67,8 @@ def word_meaning_translation(source_dir):
 def get_sorted_word_meanings(chapter_line):
     word_meanings_temp = {}
     for word_meaning in chapter_line.word_meanings:
-        search_result = re.search(word_meaning[0], chapter_line.line)
-        if search_result.group() == word_meaning[0]:
+        search_result = re.search(r"(?:\s+|^)(" + word_meaning[0] + r")(?:\s*|$|।)", chapter_line.line)
+        if search_result.group().strip() == word_meaning[0]:
             word_meanings_temp[search_result.start()] = WordMeaningDetails(word_meaning, search_result)
     sorted_word_meanings = []
     sorted_keys = sorted(word_meanings_temp.keys())
@@ -77,81 +77,93 @@ def get_sorted_word_meanings(chapter_line):
     return sorted_word_meanings
 
 
-def main(source_dir, only_english_translate):
-    chapter_lines = []
-    words_found = []
-    words, word_meanings = word_meaning_translation(source_dir)
-    with open(source_dir + "/text.txt", 'r', encoding="UTF-8") as text_h:
-        tag_file_string = text_h.read().replace('\n', ' ')
-        # split the file by the पूर्ण विराम
-        lines = tag_file_string.split("।")
-        # changing things around here a bit
-        # we're going to split each chapter line into words
-        for line in lines:
-            chapter_line = ChapterLine(line)
-            words_in_line = line.split(" ")
-            for word_in_line in words_in_line:
-                if word_in_line in words:
-                    # print(words_in_line)
-                    chapter_line.add_word_meaning(word_meanings[word_in_line])
-            chapter_lines.append(chapter_line)
+def get_printable_line_from_para(para_string):
+    end_of_line_char = '।'
+    end_of_line_char = "\n"
+    return para_string.split(end_of_line_char)
 
-        # now the bad one
-        # iterate over the items in the word meanings dict and check thru this list if you have a word that's in this line (horribly inefficient)
-    #     for line in lines:
-    #         chapter_line = ChapterLine(line)
-    #         line_words = []
-    #         for word in words:
-    #             # match whole words only
-    #             # but looks like the \b doesn't work on double-byte
-    #             if re.search("(\s*|-|!|^)" + word + "(\s*|-|!|$)", line, re.I):
-    #                 words_found.append(word)
-    #                 chapter_line.add_word_meaning(word_meanings[word])
-    #         chapter_lines.append(chapter_line)
-    # words_not_found = [word_not_found for word_not_found in words if word_not_found not in words_found]
-    # now we're going to put word meanings into a central file and get them out of there
-    # should reduce the ammount of work we need to do for this and also gives Daniel a better view of things
-    # words mean the same thing no matter where they are
-    # print("words not found")
-    # print("\n".join(words_not_found))
-    # print("==========================\n")
+
+def main(source_dir, only_english_translate):
+    FONT_SIZE = "16px"
+    end_of_para_char = "\n\n"
+
+    words, word_meanings = word_meaning_translation(source_dir)
+    chapter_paras = []
+    with open(source_dir + "/text.txt", 'r', encoding="UTF-8") as text_h:
+        tag_file_string = text_h.read()
+        # make sure you prepare the text.txt file for para split
+        # to do this, put the $ character at the end of every para in the file
+        para_strings = tag_file_string.split(end_of_para_char)
+        for para_string in para_strings:
+            para_lines = []
+            lines = get_printable_line_from_para(para_string)
+            # changing things around here a bit
+            # we're going to split each chapter line into words
+            for line in lines:
+                chapter_line = ChapterLine(line)
+                words_in_line = line.split(" ")
+                for word_in_line in words_in_line:
+                    # because we are splitting by space and not sentence,
+                    # the last word of a sentence comes with the पूर्ण विराम
+                    # so check for the last word but without the पूर्ण विराम
+                    if word_in_line[-1:] == '।' and word_in_line[:-1] in words:
+                        chapter_line.add_word_meaning(word_meanings[word_in_line[:-1]])
+                    elif word_in_line in words:
+                        chapter_line.add_word_meaning(word_meanings[word_in_line])
+                para_lines.append(chapter_line)
+            chapter_paras.append(para_lines)
+
     with open(source_dir + "/output.html", 'w', encoding="UTF-8") as html_w:
-       for chapter_line in chapter_lines:
-            html_w.write("<table>\n")
-            pointer = 0
-            if len(chapter_line.word_meanings):
-                sentence_tr = "<tr>"
-                meaning_tr = "<tr>"
-                sentence = ""
-                sorted_word_meanings = get_sorted_word_meanings(chapter_line)
-                for word_meaning in sorted_word_meanings:
-                    sentence_tr += "<td style='font-size:14px'>" + chapter_line.line[pointer:word_meaning.PosStart]\
-                                                                                                            + "</td>"
-                    meaning_tr += "<td>&nbsp;</td>"
-                    sentence_tr += "<td align='center' style='font-size:14px;font; font-weight:bold;'>" +\
-                                   chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd] + "</td>"
-                    if word_meaning.Meaning and only_english_translate:
-                        meaning_tr += "<td style='font-size:11px'>(" + word_meaning.Meaning + " - " +\
-                                      word_meaning.Translation + ")</td>"
-                    else:
-                        meaning_tr += "<td style='font-size:11px'>(" + word_meaning.Translation + ")</td>"
-                    sentence += chapter_line.line[pointer:word_meaning.PosStart] +\
-                                chapter_line.line[word_meaning.PosStart:word_meaning.PosEnd]
-                    pointer = word_meaning.PosEnd
-                sentence += chapter_line.line[pointer:]
-                sentence_tr += "<td>" + chapter_line.line[pointer:] + "।</td></tr>\n"
-                meaning_tr += "<td>&nbsp;</td></tr>\n"
-                html_w.write(meaning_tr)
-                html_w.write(sentence_tr)
-                if sentence != chapter_line.line:
-                    print("*********The original sentence:*********")
-                    print(chapter_line.line)
-                    print("*********is different from translated line*********")
-                    print(sentence)
-                    print("************************")
-            else:
-                html_w.write("<tr><td>" + chapter_line.line + "।</td></tr>\n")
-            html_w.write("</table>\n")
+        for chapter_para in chapter_paras:
+            for chapter_line in chapter_para:
+                html_w.write("<table>\n")
+                pointer = 0
+                if len(chapter_line.word_meanings):
+                    sentence_tr = "<tr>"
+                    meaning_tr = "<tr>"
+                    sentence = ""
+                    chapter_line_sorted_word_meanings = get_sorted_word_meanings(chapter_line)
+                    for chapter_line_sorted_word_meaning in chapter_line_sorted_word_meanings:
+                        sentence_tr += "<td style='font-size:18px'>" + chapter_line.line[pointer:chapter_line_sorted_word_meaning.PosStart] \
+                                       + "</td>"
+                        meaning_tr += "<td>&nbsp;</td>"
+                        sentence_tr += "<td align='center' style='font-size:16px;font; font-weight:bold;'>" + \
+                                       chapter_line.line[chapter_line_sorted_word_meaning.PosStart:chapter_line_sorted_word_meaning.PosEnd] + "</td>"
+                        # the following line is used for unit testing
+                        # to ensure that the constructed sentence is identicle to the sentence on file
+                        # see the comparison check:
+                        # if sentence != chapter_line.line:
+                        sentence += chapter_line.line[pointer:chapter_line_sorted_word_meaning.PosStart] + \
+                                    chapter_line.line[chapter_line_sorted_word_meaning.PosStart:chapter_line_sorted_word_meaning.PosEnd]
+                        if chapter_line_sorted_word_meaning.Meaning and only_english_translate:
+                            meaning_tr += "<td style='font-size:11px'>(" + chapter_line_sorted_word_meaning.Meaning + " - " + \
+                                          chapter_line_sorted_word_meaning.Translation + ")</td>"
+                        else:
+                            meaning_tr += "<td style='font-size:11px'>(" + chapter_line_sorted_word_meaning.Translation + ")</td>"
+                        pointer = chapter_line_sorted_word_meaning.PosEnd
+                    sentence += chapter_line.line[pointer:]
+                    sentence_tr += "<td>" + chapter_line.line[pointer:] + "</td></tr>\n"
+                    meaning_tr += "<td>&nbsp;</td></tr>\n"
+                    # sadly because I'm not able to figure out a proper regex in get_sorted_word_meanings
+                    # (that does not pick up the spaces before and after a word)
+                    # I have to put in this horrible, horrible HACK
+                    while sentence.find("  ") > -1:
+                        sentence = sentence.replace("  ", " ")
+                    while sentence_tr.find("  ") > -1:
+                        sentence_tr = sentence_tr.replace("  ", " ")
+                    html_w.write(meaning_tr)
+                    html_w.write(sentence_tr)
+                    if sentence != chapter_line.line:
+                        print("*********The original sentence:*********")
+                        print(chapter_line.line)
+                        print("*********is different from translated line*********")
+                        print(sentence)
+                        print("************************")
+                else:
+                    html_w.write("<tr><td>" + chapter_line.line + "</td></tr>\n")
+                html_w.write("</table>\n")
+            # end of para
+            html_w.write("<hr>\n")
 
 
 if __name__ == "__main__":
