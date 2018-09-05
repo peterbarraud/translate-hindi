@@ -457,7 +457,7 @@ word|meaning|translation
 शीघ्र||promptly
 प्रयास||try
 पली||brought up
-मुसकरा|||smiled
+मुसकरा||Smile
 पलट||turn
 उदासी ने घर कर लिया||sadness began to live
 बेबस||helpless
@@ -515,3 +515,204 @@ word|meaning|translation
 वृक्ष||tree
 राक्षसी||woman demon
 भव्यता||splendor
+घटनाओं||events
+कठिनाई||difficulty
+तरीका||method
+केवल||only
+विलाप||Moan
+अनिवार्य||mandatory
+कलरव||Tweet
+﻿भरत||Bharat
+जुटा||Raised
+तले||Below
+पादुकाओं||Paduks
+चतुरंगिणी||Smart
+लिपटकर||Lipatkar
+परंतु||but
+उखड़ने||To crumble
+सभासदों||The members
+व्यवहार||Behavior
+घुड़सवारों||Horsemen
+सेना||Army
+लग||Feeling
+बिछड़कर||Split
+अयोध्यावासियों||Ayodhavans
+पहाड़ी||Hill
+सँभाल||Handle
+त्याग||Sacrifice
+विफल||Failed
+नगरवासियों||Townspeople
+खींचकर||By dragging
+उतावलापन||Rashness
+निषादराज||Nishadraj
+सभा||assembly
+तुरंत||Immediately
+बिलखकर||Bilakhkar
+धूल||Dust
+भ्राता||Fraternal
+विरत||Whistle
+नगरी||The city
+लौटेंगे||Will return
+सूनी||Sunny
+चकराकर||Chakrakar
+माथे||Forehead
+सि्ांहासन||Sinhasan
+निकला||Out
+नदी-पर्वत||River-mountain
+चमक||Glow
+प्रार्थना||Prayer
+उद्यत||Ready
+सप़्ाफ़ाई||Safeness
+बुलाई||Convening
+गा||Sing
+लपककर||By lying
+सामान्य||Normal
+पाँव||Foot
+उचट||Heated
+आहत||Hurt
+नावें||Boats
+चे||S
+फूट-फूटकर||Bitterly
+क्षमा||Pardon
+भेंट||Meeting
+ढूँढ़||Find out
+सँभालनी||Handle
+राजमद||Rajmad
+मुनि||Money
+पढ़ाया||Taught
+पुनः||Again
+मच||Mach
+दायित्व||Liability
+निरपराध||Innocent
+खींचते||Pulls
+गहरी||Deep
+अपनाया||Adopted
+उत्तेजित||Excited
+विराट||Virat
+अर्थहीन||Meaningless
+खाकर||after eating
+मनाकर||Congratulating
+बोलते-बोलते||Speaking
+शीतल||soft
+वेश||Vest
+मंत्रणा||Tune
+सुध-बुध||presence of mind
+भरद्वाज||Bardwaj
+अग्रज||Elder
+परिचित||Familiar
+गुरुजन||The elder
+उत्तर||answer
+उतावले||Desperate
+असुविधा||Inconvenience
+राजपद||Royalty
+निभाना||To play
+कुटी||Hut
+मन-ही-मन||In my heart
+अधिकारी||Officer
+बातचीत||chit chat
+तुमुलनाद||Tumulanad
+संदेश||message
+प्रकार||type
+थरथरा||Shuddering
+छवि||The image
+नैसर्गिक||Natural
+स्नेह||love
+चीखकर||Shouting
+धैर्य||Patience
+वनस्पतियाँ||Vegetation
+राजगुणों||Rajgunon
+चरणों||The steps
+कुचल||Crushed
+पछाड़||Backward
+पर्णकुटी||Fowl
+सँभालो||Take care
+उत्कंठा||Desperation
+सुसज्जित||Furnished
+सभासद||Member
+अक्षम्य||Inexcusable
+सौगंध||Saugandh
+चित्रकूट||Chitrakoot
+पादुकाएँ||Padukan
+पादुका-पूजन||Paduka-worship
+आँच||Echcha
+शिला||Rock
+दुःखद||Sad
+शासन||Governance
+भिजवा||Send it
+श्रृंगवेपुर||Shrringwepur
+ध्वज||Flag
+पहरा||The guard
+राज||secret
+थम||The first
+अट||The condition
+बार||times
+चेहरे||Faces
+धरती||Earth
+वीर||Brave
+खलबची||Sack
+वस्त्र||The clothes
+औचित्य||Justification
+सँभालें||To handle
+ढाढ़स||Consolation
+कुमार||Kumar
+जिधर||Where
+तपस्विनी||Tapaswini
+ऊँ||Oh
+पाप||sin
+पहुँचकर||Reaching
+पछता||Repentance
+ग्रहण||Eclipse
+नियंत्रण||Control
+राजकाज||Rajakas
+एकछत्र||One eye
+धरोहर||Heritage
+वंदना||prayer
+नंदीग्राम||Nandigram
+नगर||Town
+घोर||Terrible
+सन्न||Numb
+पाठ||Lesson
+मुनिवर||Munivar
+सुरम्य||Picturesque
+संदेह||Doubt
+भूमिका||role
+रिक्त||Empty
+अहित||Harm
+व्यस्त||Busy
+निर्मम||Ruthless
+माँगी||Demanded
+बसेरा||The shelf
+भंग||Breakage
+भ्रष्ट||Corrupt
+अपराधिनी||Criminal
+अस्वीकार||Reject
+लाँघते||Lathete
+गद्दी||Paddle
+डुलाते||Dulate
+चीख||the Scream
+प्रासाद||The feast
+चँवर||Moon
+मानकर||Assuming
+राजग्रहण||Secrecy
+मनाने||To celebrate
+निधन||death
+उतरकर||By landing
+भैया||Brother
+प्रश्नों||Questions
+घबरा||Nervous
+साहस||courage
+शोक||Mourning
+चरण-पादुकाओं||Step-footed
+बँधाया||Bandedaya
+निष्कंटक||Stainless
+चुना||Chosen
+खड़ाऊँ||Stand up
+सा||Sa
+मामला||matter
+मंत्री||Minister
+भाव||Emotion
+लौटकर||returning
+पहचाना||Recognized
+ते||They
+मिलन||union
+ग्लानि||regret (feel bad)
