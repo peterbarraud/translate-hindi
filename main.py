@@ -67,7 +67,7 @@ def word_meaning_translation(source_dir):
 def get_sorted_word_meanings(chapter_line):
     word_meanings_temp = {}
     for word_meaning in chapter_line.word_meanings:
-        search_result = re.search(r"(?:\s+|^)(" + word_meaning[0] + r")(?:\s*|$|।)", chapter_line.line)
+        search_result = re.search(r"(?:\s*|^)(" + word_meaning[0] + r")(?:\s*|$|।)", chapter_line.line)
         if search_result.group().strip() == word_meaning[0]:
             word_meanings_temp[search_result.start()] = WordMeaningDetails(word_meaning, search_result)
     sorted_word_meanings = []
@@ -78,7 +78,7 @@ def get_sorted_word_meanings(chapter_line):
 
 
 def get_printable_line_from_para(para_string):
-    end_of_line_char = '।'
+    # end_of_line_char = '।'
     end_of_line_char = "\n"
     return para_string.split(end_of_line_char)
 
