@@ -7,9 +7,22 @@ class DuplicateWordsException(Exception):
     pass
 
 
+class InvalidFieldsNamesInWordMeaningFile(Exception):
+    pass
+
+
 def check_for_duplicates(source_dir):
     with open(source_dir + "/word-meaning.txt", 'r', encoding="UTF-8") as word_meaning_r:
         reader = csv.DictReader(word_meaning_r, delimiter='|')
+        bad_fieldnames = []
+        if "word" not in reader.fieldnames:
+            bad_fieldnames.append("word")
+        if "meaning" not in reader.fieldnames:
+            bad_fieldnames.append("meaning")
+        if "translation" not in reader.fieldnames:
+            bad_fieldnames.append("translation")
+        if len(bad_fieldnames) > 0:
+            raise InvalidFieldsNamesInWordMeaningFile("The word meaning file does not have the following field names: " + ", ".join(bad_fieldnames))
         word_list = []
         duplicates = []
         for row in reader:
@@ -18,10 +31,7 @@ def check_for_duplicates(source_dir):
             else:
                 word_list.append(row['word'])
         if len(duplicates):
-            print("duplicate words in dictionary:")
-            print("\n".join(duplicates))
-            print("#################")
-            raise DuplicateWordsException()
+            raise DuplicateWordsException("The following duplicate words were found:\n" + "\n".join(duplicates))
 
 
 def main(source_dir):
@@ -50,6 +60,8 @@ def main(source_dir):
                     print(row['word'])
     except DuplicateWordsException as dwe:
         print(dwe)
+    except InvalidFieldsNamesInWordMeaningFile as ifniwmf:
+        print(ifniwmf)
     except Exception as ge:
         print(ge)
 
