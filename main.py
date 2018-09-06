@@ -91,7 +91,7 @@ def main(source_dir, only_english_translate):
     chapter_paras = []
     with open(source_dir + "/text.txt", 'r', encoding="UTF-8") as text_h:
         tag_file_string = text_h.read()
-        # make sure you prepare the text.txt file for para split
+        # make sure you prepare the ``` file for para split
         # to do this, put the $ character at the end of every para in the file
         para_strings = tag_file_string.split(end_of_para_char)
         for para_string in para_strings:
