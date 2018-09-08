@@ -14,7 +14,6 @@ def main(source_dir):
                 text_w.write("\n\n")
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-sd", "--sourcedir", help="Please enter a source dir as argument")
