@@ -38,26 +38,31 @@ def main(source_dir):
     try:
         check_for_duplicates(source_dir)
         translator = Translator()
+        translation_items = []
         with open(source_dir + "/word-meaning.txt", 'r', encoding="UTF-8") as word_meaning_r:
             reader = csv.DictReader(word_meaning_r, delimiter='|')
-            with open(source_dir + "/word-meaning-trans.txt", 'w', encoding="UTF-8") as word_meaning_w:
-                counter = 0
-                for row in reader:
-                    # if meaning is available and not translation, then translate from meaning
-                    # if meaning and translation are not available, then translate from word
-                    # if meaning and translation are both available, do nothing
-                    translation = row['translation']
-                    if row['meaning'] and not row['translation']:
-                        trans = translator.translate(row['meaning'], dest='en', src='hi')
-                        translation = trans.text
-                    elif not row['meaning'] and not row['translation']:
-                        trans = translator.translate(row['word'], dest='en', src='hi')
-                        translation = trans.text
-                    if row['meaning']:
-                        word_meaning_w.write(row['word'] + "|" + row['meaning'] + "|" + translation + "\n")
-                    else:
-                        word_meaning_w.write(row['word'] + "||" + translation + "\n")
-                    print(row['word'])
+            for row in reader:
+                # if meaning is available and not translation, then translate from meaning
+                # if meaning and translation are not available, then translate from word
+                # if meaning and translation are both available, do nothing
+                translation = row['translation']  # default
+                if row['meaning'] and not row['translation']:
+                    trans = translator.translate(row['meaning'], dest='en', src='hi')
+                    translation = trans.text
+                elif not row['meaning'] and not row['translation']:
+                    trans = translator.translate(row['word'], dest='en', src='hi')
+                    translation = trans.text
+                if row['meaning']:
+                    translation_items.append({'word': row['word'], 'meaning': row['meaning'], "translation":translation})
+                else:
+                    translation_items.append({'word': row['word'], 'meaning': "", "translation": translation})
+                print(row['word'])
+        with open(source_dir + "/word-meaning.txt", 'w', newline='', encoding="UTF-8") as word_meaning_w:
+            fieldnames = ['word', 'meaning', 'translation']
+            writer = csv.DictWriter(word_meaning_w, fieldnames=fieldnames, delimiter='|')
+            writer.writeheader()
+            writer.writerows(translation_items)
+
     except DuplicateWordsException as dwe:
         print(dwe)
     except InvalidFieldsNamesInWordMeaningFile as ifniwmf:
