@@ -578,7 +578,7 @@ word|meaning|translation
 ढूँढ़||Find out
 सँभालनी||Handle
 राजमद||Rajmad
-मुनि||Money
+मुनि||saint
 पढ़ाया||Taught
 पुनः||Again
 मच||Mach
@@ -631,7 +631,6 @@ word|meaning|translation
 सभासद||Member
 अक्षम्य||Inexcusable
 सौगंध||Saugandh
-चित्रकूट||Chitrakoot
 पादुकाएँ||Padukan
 पादुका-पूजन||Paduka-worship
 आँच||Echcha
@@ -672,7 +671,7 @@ word|meaning|translation
 घोर||Terrible
 सन्न||Numb
 पाठ||Lesson
-मुनिवर||Munivar
+मुनिवर||saint ji
 सुरम्य||Picturesque
 संदेह||Doubt
 भूमिका||role
@@ -765,7 +764,7 @@ word|meaning|translation
 मानना||To agree
 बाँस||Bamboo
 प्रशंसा||appreciation
-अत्याचार||Torture
+अत्याचार||unfairness
 गिद्ध||Vulture
 विध्याचल||Classical
 घमासान||Huffy
@@ -794,26 +793,24 @@ word|meaning|translation
 बोली||language
 काला||Black
 अपहरण||Abduction
-मायावी||Elusive
+मायावी||cannot be caught
 अस्तित्व||Existence
 बदला||changed
 धराशायी||Dashed
-विकृत||Perverted
+विकृत||bad
 हिरण||the deer
-अतीव||Ativ
-टिक||Tick
+अतीव||extreme
+टिक||stay
 खंभे||Pillar
 निहारते||Watching
 रुका||Stopped
 शक्ति||strength
 मुग्ध||Enchanted
-मुनियों||Munis
+मुनियों||saints
 कुश||Kush
 खर-दूषण||Spoilage
 ऋषि-मुनियों||sages and priests
 अवं||Au
-गोदावरी||Godavari
-पंचवटी||Panchvati
 दूषण||Corruption
 रूप||form
 पड़||Fall
@@ -832,16 +829,16 @@ word|meaning|translation
 संहार||Slaughter
 ऋषि||Sage
 आमंत्रण||Invitation
-रोती-बिलखती||Roti balkati
+रोती-बिलखती||crying
 खर||The
-कुलाचें||Kuchachen
+कुलाचें||jump
 निश्चित||Fixed
 कंकाल||Skeleton
 चीखती-चिल्लाती||Screaming
 लथपथ||soaked up
 मोहित||enamoured
 कुटिया||Hut
-दंडकारण्य||Dandakaranya
+दंडकारण्य||name of forest in south India
 कष्ट||Pain
 मोह||Temptation
 सहायता||help
@@ -850,19 +847,110 @@ word|meaning|translation
 झुर्रियाँ||Wrinkles
 धारण||take
 सुंदरी||beautiful
-सुंदर-सुरम्य||Beautiful-picturesque
+सुंदर-सुरम्य||Beautiful sight
 सुनी||Listened
 दशा||Condition
 परिपूर्ण||Perfect
 जानकारी||information
 खड़ी||Steep
 डाँटा||Scold
-अत्रि||Atri
 फ़पन||Fountain
 आसक्त||Addicted
-माया||Maya
-यज्ञ||Yajna
-दुर्गति||Durgati
-बहन||sister
-जब||when
+माया||money
+यज्ञ||prayer
+दुर्गति||misery
 अनेक||many
+||
+बिछुड़कर||Splitting
+डरी-सहमी||Scared
+द्वार||Door
+बनावटी||Artificial
+सर्वनाश||destroyed
+राक्षसियों||women demons
+योजना||Plan
+उबल||boil
+बिगाड़||spoil
+सामना||confront
+पंख||wings
+सफल||successful
+पलटकर||turn around
+कलुषित||Tainted
+चाल||turn
+पुकारती||call
+लुकता-छिपता-भागता||hide-and-run
+रहस्य||mystery
+विश्वास||faith
+हरण||kidnap
+बलिष्ठ||Strong
+धन-वैभव||Wealth
+कना||Kana
+छटपटाता||Thrillingness
+घायल||injured
+पुकारा||call
+देवता||God
+बौखला||Bokhla
+स्पष्ट||clear
+प्राप्त||got
+छलनी||Sieve
+फँस||Trapped
+डालो||Pour
+राजपाट||Royal palace
+सहन||tolerate
+अपमानित||Humiliated
+पर्वतों||mountains
+मंशा||Desire
+हितैषी||Favorable
+संयम||Restraint
+घूरते||stare at
+बिताओगी||Will spend
+वैभव||Splendor
+हिरणी||female deer
+शारीरिक||bodily
+आभूषण||Jewelery
+निशक्त||Vulnerable
+वानरों||Apes
+निशि्ंचत||Nishchat
+पुकार||call
+लौटा||return
+काँटा||thorn
+संभावना||Chance
+प्राण-पखेरू||Pran-Pakkeru
+चौकसी||Caution
+मुक्त||freedom
+वाटिका||garden
+गुणगान||sing praises
+कातर||Shear
+अनसुनी||Unheard of
+पशुओं||birds
+जटा-जूट||Jute and Jute
+जानबूझकर||purposely
+सुमुखी||Beautiful
+धिक्कारती||Damn
+आशा||hope
+पापी||sinner
+कड़ा||Hard
+प्रहा||Stroller
+असहाय||Helpless
+पाए||got
+छकाया||Chhayaa
+महाबलशाली||Majestic
+शक्तिशाली||strong
+जलाकर||burn
+खोज||search
+छल||Trick
+निगरानी||Surveillance
+पीड़ा||Pain
+जुट||gather
+संभवतः||Possibly
+बचाव||save
+गुप्तचर||Spy
+पवित्र||pure
+संस्कार||traditions
+खुल||open
+पाकर||found
+क्षत-विक्षत||mangled
+निभाई||follow
+प्रभावित||influenced
+अनुमान||an estimate
+रो-रोकर||crying
+आघात||the strokes
