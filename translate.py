@@ -31,7 +31,7 @@ def check_for_duplicates(source_dir):
             else:
                 word_list.append(row['word'])
         if len(duplicates):
-            raise DuplicateWordsException("The following duplicate words were found:\n" + "\n".join(duplicates))
+            raise DuplicateWordsException("The following duplicate words were found in " + source_dir + "/word-meaning.txt" + + ":\n".join(duplicates))
 
 
 def main(source_dir):
