@@ -519,7 +519,7 @@ word|meaning|translation
 लिपटकर||Lipatkar
 परंतु||but
 उखड़ने||To crumble
-सभासदों||The members
+सभासदों||cabinet members
 व्यवहार||Behavior
 घुड़सवारों||Horsemen
 बिछड़कर||Split
@@ -537,7 +537,7 @@ word|meaning|translation
 धूल||Dust
 भ्राता||Fraternal
 विरत||Whistle
-नगरी||The city
+नगरी||city
 लौटेंगे||Will return
 सूनी||Sunny
 चकराकर||Chakrakar
@@ -582,7 +582,7 @@ word|meaning|translation
 सुध-बुध||presence of mind
 अग्रज||Elder
 परिचित||Familiar
-गुरुजन||The elder
+गुरुजन||elder
 उत्तर||answer or south
 उतावले||Desperate
 असुविधा||Inconvenience
@@ -595,14 +595,14 @@ word|meaning|translation
 संदेश||message
 प्रकार||type
 थरथरा||Shuddering
-छवि||The image
+छवि||image
 नैसर्गिक||Natural
 स्नेह||love
 चीखकर||Shouting
 धैर्य||Patience
 वनस्पतियाँ||Vegetation
 राजगुणों||kings behaviour
-चरणों||The steps
+चरणों||feet
 कुचल||Crushed
 पछाड़||Backward
 उत्कंठा||Desperation
@@ -618,14 +618,14 @@ word|meaning|translation
 शासन||Governance
 भिजवा||Send it
 ध्वज||Flag
-पहरा||The guard
+पहरा||guard
 राज||secret or rule
-थम||The first
-अट||The condition
+थम||first
+अट||condition
 धरती||Earth
 वीर||Brave
 खलबची||Sack
-वस्त्र||The clothes
+वस्त्र||clothes
 औचित्य||Justification
 सँभालें||To handle
 ढाढ़स||Consolation
@@ -652,31 +652,25 @@ word|meaning|translation
 रिक्त||Empty
 अहित||Harm
 व्यस्त||Busy
-निर्मम||Ruthless
-बसेरा||The shelf
-भंग||Breakage
+निर्मम||without mercy
+बसेरा||perch
+भंग||Break
 भ्रष्ट||Corrupt
 अपराधिनी||Criminal
 अस्वीकार||Reject
-लाँघते||Lathete
-गद्दी||Paddle
-डुलाते||Dulate
-चीख||the Scream
-प्रासाद||The feast
+गद्दी||seat
+चीख||Scream
+प्रासाद||from Mandir
 चँवर||Moon
 मानकर||Assuming
 राजग्रहण||Secrecy
 मनाने||To celebrate
-निधन||death
-उतरकर||By landing
-भैया||Brother
-प्रश्नों||Questions
 घबरा||Nervous
 साहस||courage
-शोक||Mourning
-चरण-पादुकाओं||Step-footed
-बँधाया||Bandedaya
-निष्कंटक||Stainless
+शोक||feeling sad for death
+चरण-पादुकाओं||wooden shoes
+बँधाया||tied up
+निष्कंटक||spotless
 चुना||Chosen
 खड़ाऊँ||Stand up
 सा||Sa
@@ -685,16 +679,14 @@ word|meaning|translation
 भाव||Emotion
 लौटकर||returning
 पहचाना||Recognized
-ते||They
 मिलन||union
 ग्लानि||regret (feel bad)
-सफ़ाया||Safaya
-लता-कुंजों||Creeper
+सफ़ाया||clean up
+लता-कुंजों||tree growing againt wall
 घटना||event
-फुफकारती||Puffing
+फुफकारती||huff and puff
 एकदम||at once
 जब-तब||whenever
-नाचते||dancing
 हस्तक्षेप||Interference
 हिंयों||Hines
 भरते||Fills
@@ -758,9 +750,9 @@ word|meaning|translation
 रूपराज||Ruparaj
 तपस्या||Penance
 मदद||help
-ऋषियों||The sages
+ऋषियों||sages
 विजय||victory
-दुष्ट||The evil
+दुष्ट||evil
 युद्ध||War
 बोली||language
 काला||Black
@@ -770,7 +762,7 @@ word|meaning|translation
 बदला||changed
 धराशायी||Dashed
 विकृत||bad
-हिरण||the deer
+हिरण||deer
 अतीव||extreme
 टिक||stay
 खंभे||Pillar
@@ -796,14 +788,14 @@ word|meaning|translation
 परिचय||introduction
 मुनिगण||Questioning
 सुरक्षित||Safe
-दैत्यों||The monsters
+दैत्यों||monsters
 संहार||Slaughter
 ऋषि||Sage
 आमंत्रण||Invitation
 रोती-बिलखती||crying
 खर||The
 कुलाचें||jump
-निश्चित||Fixed
+निश्चित||no doubt
 कंकाल||Skeleton
 चीखती-चिल्लाती||Screaming
 लथपथ||soaked up
@@ -923,7 +915,7 @@ word|meaning|translation
 प्रभावित||influenced
 अनुमान||an estimate
 रो-रोकर||crying
-आघात||the strokes
+आघात||strokes
 चट्टानों||large stones
 चिता||pyre
 वानरराज||ape king
@@ -939,8 +931,8 @@ word|meaning|translation
 अनुपस्थिति||Absence
 साक्षात्||Obvious
 काया||appearance
-प्रयोजन||The purpose
-पुष्पमाला||The wax
+प्रयोजन||purpose
+पुष्पमाला||wax
 बायाँ||Left
 चुनौती||goal
 गर्दन||neck
