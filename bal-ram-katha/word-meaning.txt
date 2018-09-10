@@ -126,8 +126,6 @@ word|meaning|translation
 विलंब||delay
 राज्य||kingdom
 राजधानी||capital
-पुत्र||son
-बढ़े||moved forward
 निकट||close by
 किनारे-किनारे||close to
 दक्षिणी तट||southern coast
@@ -204,8 +202,6 @@ word|meaning|translation
 खतरा||danger
 मिटा||erase
 राक्षसी ताड़का||demon Tadka
-वन||jungle
-आज्ञा||command
 टँकार||noise
 गरजती||roaring
 दौड़ी||she ran
@@ -217,7 +213,6 @@ word|meaning|translation
 हृदय||heart
 अस्त्र-शस्त्र||weapons
 महत्त्व||importance
-अधिक||more
 तय||fixed
 भय||fear
 बिताई||spend
@@ -226,7 +221,6 @@ word|meaning|translation
 सरसराहट||rustle
 चहचहाहट||twitter
 तसवीर||picture
-अंतिम||last
 पड़ाव||stop
 मनोहारी||beautiful
 प्राकृतिक||nature
@@ -237,7 +231,6 @@ word|meaning|translation
 प्रसन्नता||happiness
 दुगुनी||doubled
 आगमन||arrival
-तैयारियों||preparations
 प्रारंभ||started
 रक्षा||protection
 सौंपकर||hand over
@@ -286,7 +279,6 @@ word|meaning|translation
 ठिकाना||place
 वर||groom or gift
 आक्रमण||attack
-इच्छा||wish
 राज्याभिषेक||coronation
 युवराज||heir-apparent
 पद||position
@@ -367,7 +359,7 @@ word|meaning|translation
 वनवास||exile
 तमतमाया||flushed (turned red)
 प्रतीक्षा||wait
-भाँप||estimate
+भाँप||understood
 कोपभवन||place where an angry woman would go
 प्रिय||favourite
 लक्ष्य||goal
@@ -510,15 +502,12 @@ word|meaning|translation
 ननिहाल||mother's family
 सर्वथा||completely
 अनभिज्ञ||ignorant
-चि्ांतित||worried
 संगी-साथियों||compaions
 वृक्ष||tree
-राक्षसी||woman demon
 भव्यता||splendor
 घटनाओं||events
 कठिनाई||difficulty
 तरीका||method
-केवल||only
 विलाप||Moan
 अनिवार्य||mandatory
 कलरव||Tweet
@@ -533,8 +522,6 @@ word|meaning|translation
 सभासदों||The members
 व्यवहार||Behavior
 घुड़सवारों||Horsemen
-सेना||Army
-लग||Feeling
 बिछड़कर||Split
 अयोध्यावासियों||Ayodhavans
 पहाड़ी||Hill
@@ -542,7 +529,6 @@ word|meaning|translation
 त्याग||Sacrifice
 विफल||Failed
 नगरवासियों||Townspeople
-खींचकर||By dragging
 उतावलापन||Rashness
 निषादराज||Nishadraj
 सभा||assembly
@@ -564,14 +550,12 @@ word|meaning|translation
 उद्यत||Ready
 सप़्ाफ़ाई||Safeness
 बुलाई||Convening
-गा||Sing
 लपककर||By lying
 सामान्य||Normal
 पाँव||Foot
 उचट||Heated
 आहत||Hurt
 नावें||Boats
-चे||S
 फूट-फूटकर||Bitterly
 क्षमा||Pardon
 भेंट||Meeting
@@ -588,25 +572,22 @@ word|meaning|translation
 गहरी||Deep
 अपनाया||Adopted
 उत्तेजित||Excited
-विराट||Virat
+विराट||grand
 अर्थहीन||Meaningless
-खाकर||after eating
 मनाकर||Congratulating
 बोलते-बोलते||Speaking
 शीतल||soft
 वेश||Vest
 मंत्रणा||Tune
 सुध-बुध||presence of mind
-भरद्वाज||Bardwaj
 अग्रज||Elder
 परिचित||Familiar
 गुरुजन||The elder
-उत्तर||answer
+उत्तर||answer or south
 उतावले||Desperate
 असुविधा||Inconvenience
 राजपद||Royalty
 निभाना||To play
-कुटी||Hut
 मन-ही-मन||In my heart
 अधिकारी||Officer
 बातचीत||chit chat
@@ -620,16 +601,14 @@ word|meaning|translation
 चीखकर||Shouting
 धैर्य||Patience
 वनस्पतियाँ||Vegetation
-राजगुणों||Rajgunon
+राजगुणों||kings behaviour
 चरणों||The steps
 कुचल||Crushed
 पछाड़||Backward
-पर्णकुटी||Fowl
-सँभालो||Take care
 उत्कंठा||Desperation
 सुसज्जित||Furnished
 सभासद||Member
-अक्षम्य||Inexcusable
+अक्षम्य||cannot be forgiven
 सौगंध||Saugandh
 पादुकाएँ||Padukan
 पादुका-पूजन||Paduka-worship
@@ -638,14 +617,11 @@ word|meaning|translation
 दुःखद||Sad
 शासन||Governance
 भिजवा||Send it
-श्रृंगवेपुर||Shrringwepur
 ध्वज||Flag
 पहरा||The guard
-राज||secret
+राज||secret or rule
 थम||The first
 अट||The condition
-बार||times
-चेहरे||Faces
 धरती||Earth
 वीर||Brave
 खलबची||Sack
@@ -656,9 +632,7 @@ word|meaning|translation
 कुमार||Kumar
 जिधर||Where
 तपस्विनी||Tapaswini
-ऊँ||Oh
 पाप||sin
-पहुँचकर||Reaching
 पछता||Repentance
 ग्रहण||Eclipse
 नियंत्रण||Control
@@ -679,7 +653,6 @@ word|meaning|translation
 अहित||Harm
 व्यस्त||Busy
 निर्मम||Ruthless
-माँगी||Demanded
 बसेरा||The shelf
 भंग||Breakage
 भ्रष्ट||Corrupt
@@ -728,7 +701,6 @@ word|meaning|translation
 भरकर||Filling
 शूर्पणखा||Swirl
 धमकते||Threats
-अंत||end
 नाक-कान||nose-ear
 उपाय||solution
 स्वरूप||Format
@@ -803,7 +775,6 @@ word|meaning|translation
 टिक||stay
 खंभे||Pillar
 निहारते||Watching
-रुका||Stopped
 शक्ति||strength
 मुग्ध||Enchanted
 मुनियों||saints
@@ -932,7 +903,6 @@ word|meaning|translation
 प्रहा||Stroller
 असहाय||Helpless
 पाए||got
-छकाया||Chhayaa
 महाबलशाली||Majestic
 शक्तिशाली||strong
 जलाकर||burn
@@ -954,3 +924,219 @@ word|meaning|translation
 अनुमान||an estimate
 रो-रोकर||crying
 आघात||the strokes
+चट्टानों||large stones
+चिता||pyre
+वानरराज||ape king
+पंपासर||mythological lake
+ऋष्यमूक||name of mountain
+लता-कुंज||overgrown place in grove
+मानसिक||psychic
+पंपा||Panda
+भ्राते||brotherly
+उलाहना||Rehearse
+जर्जर||Shabby
+व्याकुलता||Distraction
+अनुपस्थिति||Absence
+साक्षात्||Obvious
+काया||appearance
+प्रयोजन||The purpose
+पुष्पमाला||The wax
+बायाँ||Left
+चुनौती||goal
+गर्दन||neck
+पुकारते||call
+लहूलुहान||Blushing
+असहनीय||Unmanageable
+साँसें||breathing
+क्रुद्ध||Fierce
+आवभगत||Appreciative
+रखवाली||take care
+शिकार||victim
+मृत||Dead
+तृप्त||Satisfied
+आहार||Diet
+मृग||Deer
+लुप्त||Lost
+हिरणों||many deer
+तत्परता||Readiness
+व्यतीत||Spent
+संघर्ष|fight|fight
+विलीन||Merge
+संतप्त||end
+विधान||Legislation
+भटकते||roaming
+सहमति||agree
+महत्त्वपूर्ण||important
+पक्षिराज||king of birds
+दक्षिण-पश्चिम||south-west
+आदर्श||Ideal
+सकुशल||Doubtful
+पेड़ों-झाडि़यों||trees and bushes
+बलवती||Balvati
+कठिनाइयाँ||difficulties
+लपलपाती||Hammer
+नम||Moist
+विक्षिप्त||Crazy
+सारथी||charioteer
+पछताते||regret
+क्षमता||forgiveness
+कटु||Bitter
+प्रतिदिन||every day
+आक्रमणों||Invasions
+पर्वत||mountain
+अवरोध||crime
+पूर्व||south
+असमंजस||Confusion
+लपेटकर|tied|tied
+शून्य||zero
+तौर||swim
+पशु-पक्षी||animals and birds
+परिहास||joke
+भुला||forget
+फूलों||flowers
+भटकने||go lost
+क्रिया||Verb
+प्रत्येक|every|every
+निर्वासित||exiled
+सहायक||helper
+गुमसुम||lost
+भुजाओं||Arms
+माँसपिड||Mumps
+वेणी||Braid
+जीभ||Tongue
+गूँथ||Gum
+आश्चर्यचकित||Surprised
+घट||Decrease
+कटाक्ष||Sigh
+चहक||Tweet
+खिझाने||frustrating
+स्तब्ध||Stunned
+झुंड|crowd|crowd
+समा||Environment
+विरह||Without
+टकराकर|bump into|bump in
+बिछुड़ना|separate|separate
+टुकड़े|pieces|pieces
+झूलने|swing|swing
+वापसी|return|return
+वन-मार्ग|jungle way|jungle way
+शिष्या|student|student
+पगडंडी||Trail
+वानर||Apes
+भाषा||Language
+मनमाँगा||wish of mind
+घिरा||Surrounded
+word|meaning|translation
+सेनापति||Commander
+बिता||To spend
+वृक्षों||trees
+वर्षा||rain
+बदलकर||By changing
+अग्नि||Fire
+संबोधन||Exhortation
+मुसकराहट||Smile
+शिष्टता||Courteousness
+नील||Indigo
+धमका||threat
+ललकारो||challenge
+आश्वासन||Assurance
+लहरों||waves
+टंकार||sound
+अँगूठी||ring
+चेष्टा||Applause
+कँपा||tremble
+ललकारा||Challenge
+तारा||Star
+भरोसा||depend
+युवकों||Youth
+सुख-दुःख||happy Sad
+निवास||residence
+भयभीत||Frightened
+व्यथा-कथा||Misery
+दिलाया||Got drawn
+शिखर||hunt
+सांत्वना||Consolation
+शीघ्रता||Quickness
+साक्षी||witness
+भटक||Wandering
+स्थगित||Postponed
+कंधे||shoulder
+गहराई||depth
+सैनिक||souldiers
+एकत्र||Together
+सौंपा||Assigned
+शाल||Shawl
+मुट्ठी||fist
+साथियों||compaions
+अंगूठी||ring
+डोरी||string
+दूतों||Messengers
+अथाह||Immeasurable
+अग्रिम||In advance
+आवश्यक||necessary
+निर्धारित||laid down
+घबराहट||troubled
+जामवंत||King of Bears
+अवधि||Period
+यत्न||journey
+लड़खड़ाकर||tripping
+अपार||Immense
+सेवक||helpers
+प्रमुख||Chief
+उछलकूद||Bounce
+याचना||Solicit
+भालुओं||bears
+थक-हारकर||lose tired
+पटकता||throw down
+विकट||unpleasant
+ध्यान||Care
+समझा-बुझाकर||Understandably
+पंद्रह||15
+ओट||hiding place
+सागर||sea
+कुपित||Angry
+साझा||decorate
+मनमुटाव||Pique
+भेस||bull
+झगड़ा||fight
+विश्वासपात्र||Confidant
+टोली||Gang
+उलझ||Tangled
+गरज||thunder
+दल||group
+थकान||tiredness
+मल्ल||hard
+संपाति||Coincidence
+भीषण||Gruesome
+सूझ||Sense
+आनन-फानन||In a hurry
+ऋतु||Season
+धोखा||betrayal
+जगाई||Wake up
+पोटली||small bag
+बीत||pass
+टोलियों||band of people
+प्रारंभिक||Initial
+निर्वासन||Exile
+पहरे||guard
+जय-जयकार||shout for joy
+विकराल||Distracted
+टोलियाँ||Trolley
+चतुर||clever
+गरजता||Thunder
+राग-रंग||Chord color
+प्रदर्शन||Display
+बुद्धिमान||intelligent person
+गुँथ||knot
+पवन-पुत्र||Son of wind
+राजतिलक||Coronation
+किष्किधा||old name of Mysore
+लंकारोहण||crime
+संबोधित||Addressed
+वानरसेना||army of apes
+छुड़ाने||set free
+गहनों||ornaments
+भि्ांची||closed
+चंगुल||grip
+काम-तमाम||finish off
+चूक||mistake
