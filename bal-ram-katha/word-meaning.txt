@@ -300,7 +300,7 @@ word|meaning|translation
 नादान||Immature
 भोली||simple
 आसन्न||impending
-संकट||crisis
+संकट||trouble
 दंड||punishment
 राय||advice
 भिन्न||difference
@@ -872,7 +872,7 @@ word|meaning|translation
 आभूषण||Jewelery
 निशक्त||Vulnerable
 वानरों||Apes
-निशि्ंचत||Nishchat
+निशि्ंचत||don't worry
 पुकार||call
 लौटा||return
 काँटा||thorn
