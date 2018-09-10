@@ -1,6 +1,7 @@
 import argparse
 import sys
 import os
+import csv
 
 
 def word_meaning_translation(source_dir):
@@ -33,19 +34,21 @@ def main(source_dir):
         print("\n".join(overlap_words))
     else:
         with open(source_dir + "/source.txt", 'r', encoding="UTF-8") as text_h:
-            with open(source_dir + "/words.txt", 'w', encoding="UTF-8") as text_w:
-                text = text_h.read()
-                # remove all ूर्ण विराम
-                text = text.replace("\n", " ")
-                text = text.replace("।", " ")
-                text = text.replace("?", " ")
-                text = text.replace("!", " ")
-                text = text.replace(",", " ")
-                chapter_words = set(text.split(" "))
-                chapter_words = [word for word in chapter_words if word not in difficult_words]
-                chapter_words = [word for word in chapter_words if word not in blacklisted_words]
-
-                text_w.write("\n".join([chapter_word + "||" for chapter_word in chapter_words]))
+            text = text_h.read()
+            text = text.replace("\n", " ")
+            text = text.replace("।", " ")
+            text = text.replace("?", " ")
+            text = text.replace("!", " ")
+            text = text.replace(",", " ")
+            chapter_words = set(text.split(" "))
+            chapter_words = [word for word in chapter_words if word not in difficult_words]
+            chapter_words = [word for word in chapter_words if word not in blacklisted_words]
+            with open(source_dir + "/words.txt", 'w', newline='', encoding="UTF-8") as words_w:
+                fieldnames = ['word', 'meaning', 'translation']
+                writer = csv.DictWriter(words_w, fieldnames=fieldnames, delimiter='|')
+                writer.writeheader()
+                for chapter_word in chapter_words:
+                    writer.writerow({"word": chapter_word, "meaning": "", "translation": ""})
 
 
 if __name__ == "__main__":
@@ -56,6 +59,10 @@ if __name__ == "__main__":
         main(args.sourcedir)
     except FileNotFoundError as file_not_found_error:
         print(file_not_found_error)
+    except ValueError as value_error:
+        print(value_error)
+    except IndexError as index_err:
+        print(index_err)
     except:
         print(sys.exc_info()[0])
     print("all done!")
