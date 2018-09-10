@@ -4,34 +4,30 @@
 [English To Hindi Conversion](http://hindi.changathi.com)
 
 How-to Translate:
-1. get source.pdf from online
-2. copy the text in source.txt (make source.txt, if required)
-3. take each section (page or column) from source.pdf and translate font using http://www.hindiconverter.com/Converter.php?q=Walkman-To-Unicode
-and paste it into source.text
-4. Run make_chapter_wordlist.py to create a words.txt file in the chapter folder
-5. check the end of each para in the source.pdf and in the source.txt separate paras by double-carriage return ("\n\n")
-7. point the file_prepary.py -sd switch to the chapter folder and run it
-this creates the text.txt with each para on a separate line
-8. now manually break the line (not sentences!) by the length of max. 80-85 (or less) columns per line
-a simple way to do this, is (in Notepad++) to search for ।  (पूर्ण विराम) followed by space and look at the Col: in the status bar
-put a । and carriage return into the clipboard and when you hit a । at the appropriate col point just hit Ctrl+V
-**Note:** In Notepad++ use F3 to search forward and Shift+F3 to search back
+1. Open the ```source.pdf``` for a chapter
+2. Copy one para at a time into (Hindi converter)[http://www.hindiconverter.com/Converter.php?q=Walkman-To-Unicode]
+3. In the above converter make sure you separate each para with double-enter
+4. After you've copied the entire chapters in the converter, run Convert - Walkman-To-Unicode.
+5. Copy the converted Hindi text to a ```source.txt```. (Create ```source.txt```, if required)
+(Preferably using Notepad++ and ensuring that the Encoding is set to UTF-8)
+6. (Optionally) You might need to clean for badly converted chars.
+7. Point file_prepare.py to the chapter and run it
+This will put each para from ```source.txt``` into a single line and create the ```text.txt``` file
+8. Now break the para lines into printable lines. Break the line at max. 90 chars (better in the range 70-85).
+9. To break the lines, search for पूर्ण विराम space and copy पूर्ण विराम carriage return onto the clipboard.
+10. Continue searching forward using F3 (for the पूर्ण विराम space) when you hit a convenient point, press Ctrl+V (with पूर्ण विराम carriage return on the clipboard)
+Create a list of unique words that were not pre-listed in ```word-meaning.txt``` or ```word-black-list.txt```
+11. Point ```make_chapter_wordlist.py``` to the chapter and run
+This creates a ```words.txt``` in the chapter folder. This replicates ```word-meaning.txt```
+12. First manually figure out words that we should know and move these into ```word-black-list.txt```.
+13. Also, put translations against words that you know back into the ```words.txt```
+14. Point ```translate_chapter_words.py``` to the chapter and run it.
+Go through the translated list and find words that either have a bad translation or maybe ```Proper nouns```
+15. If required, fix obviously bad translations and move any more words into ```word-black-list.txt```.
+16. Remove ```words.txt```. Don't put this into ```git```
+16. After you're done cleaning up ```words.txt```, copy the contents into ```word-meaning.txt```
+17. Point ```main.py``` to the chapter and run it
 
-
-# Preparing text file for translation
-The translation program (```main.py```) expects a text file with the name ```text.txt``` in the folder specified in the ```sourcedir``` command line arg
-
-The text.txt should be cleaned as follows:
-Lines in the file must be separated by carriage return (```\n```). So you can have multiple sentences within the same line
-Paragraphs in the file must be separated by double carriage return (```\n\n```).
-
-
-## Using file_prepare.py
-After you get the text from the ```source.pdf``` into a ```source.txt``` file, put double carriage return (```\n\n```) after each paragraph and then run the ```file_prepare.py```
-
-After that, you should break the paras into lines that will fit a printable page
-
-**Hint:**: If you're using Notepad++, recommendation is to make a line ```105 Col max```. This ensure the line doesn't wrap and also reads well
 
 # Word meaning file format
 Pipe separated file with a header of (exactly) this format:
