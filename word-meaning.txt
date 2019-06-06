@@ -27,21 +27,24 @@ word|meaning|translation
 परिजनों|परिवार के लोग|Family members
 अगवानी|आगे बढ़कर स्वागत करना|Go ahead and welcome
 स्वयं|खुद|self
+बलशाली||strong
+प्रतिक्रिया||show
 उम्मीद|आशा|hope
 दुविधा|संकोच|Hesitation
 आशंका|दर|fear
-सशंकित|शंका से भरा हुआ|Dilemma
+सशंकित|शंका से भरा हुआ|confusion
 अनिष्ट|हानि|Loss
 व्यक्त|प्रकट|Manifest
 खिन्न|उदास|Sad
 विद्याएँ|वियोग|teachings
 आग्रह|निवेदन|Request
 नितांत|बिलकुल|deeply
-स्वस्तिवचन|मंगल वचन|Tangle word
+स्वस्तिवचन|मंगल वचन|confused
 अविलंब|तुरंत|Immediately
-बीहड़|निर्जन|Secluded
+बीहड़|निर्जन|hidden awan
 कथा|लंबी कहानी|Long story
 अति|बहुत|very
+लाभ||advantage
  लायक|योग्य|worth
 आलीशान|शानदार|Amazing
 सरोवर|झील|lake
@@ -60,7 +63,6 @@ word|meaning|translation
 पालन||follow
 सदाचारी||Good-natured
 पवित्रता||Sanctity
-शांति|peace|peace
 यशस्वी||Successful
 प्रश्न||questions
 उभर|age|age
@@ -200,7 +202,6 @@ word|meaning|translation
 शोभा||beauty
 असली||real
 खतरा||danger
-मिटा||erase
 राक्षसी ताड़का||demon Tadka
 टँकार||noise
 गरजती||roaring
@@ -336,7 +337,6 @@ word|meaning|translation
 विपत्ति||disaster
 चौंककर||shocking
 अमंगल||disasterous
-हार||neckless or lose
 प्रसन्न||happy
 बुद्धि||intelligence
 मति||brains
@@ -523,7 +523,7 @@ word|meaning|translation
 व्यवहार||Behavior
 घुड़सवारों||Horsemen
 बिछड़कर||Split
-अयोध्यावासियों||Ayodhavans
+अयोध्यावासियों||people of Ayodha
 पहाड़ी||Hill
 सँभाल||Handle
 त्याग||Sacrifice
@@ -565,7 +565,6 @@ word|meaning|translation
 मुनि||saint
 पढ़ाया||Taught
 पुनः||Again
-मच||Mach
 दायित्व||Liability
 निरपराध||Innocent
 खींचते||Pulls
@@ -609,7 +608,7 @@ word|meaning|translation
 सुसज्जित||Furnished
 सभासद||Member
 अक्षम्य||cannot be forgiven
-सौगंध||Saugandh
+सौगंध||swear
 पादुकाएँ||Padukan
 पादुका-पूजन||Paduka-worship
 आँच||Echcha
@@ -634,9 +633,9 @@ word|meaning|translation
 तपस्विनी||Tapaswini
 पाप||sin
 पछता||Repentance
-ग्रहण||Eclipse
+ग्रहण||take up
 नियंत्रण||Control
-राजकाज||Rajakas
+राजकाज||affairs of kindom
 एकछत्र||One eye
 धरोहर||Heritage
 वंदना||prayer
@@ -704,15 +703,14 @@ word|meaning|translation
 लंकाधिपति||Chancellor
 घबराया||worried
 ललकारते||Shouting
-क्षरभंग||Carbohydrate
 दूरी||distance
-झुकाकर||Bending
+झुकाकर||bowing
 अकंपन||Unction
 सीता-हरण||kidnap sita
 आना-जाना||come and go
 तलवार||sword
 पौरुष||Virility
-मुसकराकर||Muskarkar
+मुसकराकर||smiled
 छोड़ना||leave
 राजन||Rajan
 सौतेले||Stepfather
@@ -734,7 +732,6 @@ word|meaning|translation
 घमासान||Huffy
 वनवासी||forest people
 बिताया||Spent
-जिन्होंने||Who have
 राक्षस||demon
 वनस्पतियों||plants
 तप||Tenacity
@@ -771,7 +768,6 @@ word|meaning|translation
 मुग्ध||Enchanted
 मुनियों||saints
 कुश||Kush
-खर-दूषण||Spoilage
 ऋषि-मुनियों||sages and priests
 अवं||Au
 दूषण||Corruption
@@ -823,7 +819,6 @@ word|meaning|translation
 यज्ञ||prayer
 दुर्गति||misery
 अनेक||many
-||
 बिछुड़कर||Splitting
 डरी-सहमी||Scared
 द्वार||Door
@@ -846,7 +841,6 @@ word|meaning|translation
 हरण||kidnap
 बलिष्ठ||Strong
 धन-वैभव||Wealth
-कना||Kana
 छटपटाता||Thrillingness
 घायल||injured
 पुकारा||call
@@ -977,7 +971,7 @@ word|meaning|translation
 आक्रमणों||Invasions
 पर्वत||mountain
 अवरोध||crime
-पूर्व||south
+पूर्व||south or before
 असमंजस||Confusion
 लपेटकर|tied|tied
 शून्य||zero
@@ -1005,7 +999,7 @@ word|meaning|translation
 स्तब्ध||Stunned
 झुंड|crowd|crowd
 समा||Environment
-विरह||Without
+विरह||separation
 टकराकर|bump into|bump in
 बिछुड़ना|separate|separate
 टुकड़े|pieces|pieces
@@ -1046,7 +1040,7 @@ word|meaning|translation
 भयभीत||Frightened
 व्यथा-कथा||Misery
 दिलाया||Got drawn
-शिखर||hunt
+शिखर||peak
 सांत्वना||Consolation
 शीघ्रता||Quickness
 साक्षी||witness
@@ -1081,7 +1075,7 @@ word|meaning|translation
 थक-हारकर||lose tired
 पटकता||throw down
 विकट||unpleasant
-ध्यान||Care
+ध्यान||care or attension
 समझा-बुझाकर||Understandably
 पंद्रह||15
 ओट||hiding place
@@ -1132,3 +1126,609 @@ word|meaning|translation
 चंगुल||grip
 काम-तमाम||finish off
 चूक||mistake
+द्वारपाल||gatekeeper
+चिड़चिड़ाहट||irritation
+पोंछता||wipe
+रविवार||Sunday
+कोरस||Chorus
+यूँ||like this
+सहे||bear
+खानदान||family
+शक||suspect
+दोहरा||repeat
+चालबाजी||tactics
+शरीर||body
+कीमत||value or cost
+टाला||delay or put off
+सिरहाने||head of the bed
+ठहाका||guffaw
+अनंत||endless
+मामा|| uncle (mother's brother)
+चिढ़||irritation
+किवाड़||shutter
+ईर्ष्यालू||spiteful
+चूँकि||because
+झपक||pounce
+साँकल||door
+उत्सुक||eager [excited]
+मधुमक्खी||bee
+भीतर||inside
+उल्लू||owl
+इंडोनेशिया||Indonesia
+अकसर||often
+पृष्ठ||page
+पिछवाड़े||backyard
+रूस||Russian
+कीमती||expensive
+पगडंडियों||footpath
+घुड़की||threaten
+पटककर||throw down
+शनिवार||Saturday
+धड़कने||beat (heart)
+मोती||pearl
+झाड़||wipe
+सब-के-सब||everyone
+फिसड्डी||pathetic
+अगुवा||leader
+धुन||tune
+ट्रंक||trunk (box)
+बाथरूम||bathroom
+सरपंच||village head
+टोका||interrupt
+तमतमाने||burn
+पार्सल||parcel
+जलूँ||feel jealous
+फालतू||wasted (extra)
+दराज||drawer
+टरका||bump
+टटोलने||feel about
+शान||pride
+वाकई||definitely
+भिजवाया||sent for
+फिरता||spin [roam]
+कमीज||shirt
+शर्त||bet
+शहर||city
+झाँका||peep
+तकिए||pillow
+सीढि़याँ||staircase
+नकलची||copy cat
+लगन||like
+यकीन||believe
+चुराने||steal
+मतलब||meaning
+अलमारी||cupboard
+हेकड़ी||hesitate
+कोशिश||try
+ऑस्ट्रेलिया||Australia
+झाँककर||peep
+वाक्यों||sentences
+तेज-तर्रार||sharp
+तुलना||compare
+मूली||raddish
+कमरे||rooms
+घेरकर||surround
+चिंतित||anxious (scared)
+मजाक||play
+अपमान||insult
+पलक||eyelid
+अलबम||album
+तौलिया||towel
+फ़ालतू||extra [useless]
+उगे||grow
+खुद||self
+घेरे||surround
+ताले||locks
+चाहा||want
+देगची||kettle
+गोद||lap
+कवर||cover
+हाजिर||present
+दफ्तर||office
+कनाडा||Canada
+बेशर्म||shameless
+सहसा||suddenly
+खेत||farm
+फ़ौज||troop
+बगैर||without
+नकल||cheat
+खटकने||jerk
+शायद||maybe
+कुरसी||chair
+बुदबुदाया||mumble
+शर्म||shame
+सीढि़यों||stairs
+बेहद||extremely
+मशहूर||famous
+पलटता||turn around or turn over
+मेहनत||effort
+खरीदना||buy
+काल||time
+मेज||table
+अगर||if
+बटोरे||gather
+पन्ना||page
+पश्चिम||West
+घुसकर||fit inside
+दरवाजे||door
+तलाशी||search
+खोंस||fix
+कापियों||note books
+शांतिपूर्वक||peacefully
+बहला||make feel better
+यार||friend
+चबेना||something to chew
+वक्त||time
+कूड़ा||garbage
+तारीफ||praise
+खटकी||sly
+टीप||note
+खबर||news
+घमंडी||proud
+काहे||why
+सवार||ride
+पुचकारा||console
+बघारी||
+चमत्कार||amazing
+नीची||low
+पाकिस्तान||Pakistan
+बड़बड़ाया||grumble
+पच्चीस||25
+प्रकट||show (become)
+फिनलैंड||Finland
+जमघट||crowd
+अँगीठी||Ring
+कक्षा||Class
+निशानी||aim
+बेगम||Begum
+जगावेगा||will wake
+बुलन्दे||tall
+घिरी||surrounded
+पुरखों||ancestors
+तानी||trick
+बुंदेलों||
+चेती||
+बिरानी||
+खूब||very
+वीरवर||mighty
+सच्चाई||truth
+आजादी||freedom
+मराठे||People from Maharashtra
+नाला||drain
+कैद||prison
+बहिन||
+कटारी||
+मुदित||
+मुँहबोली||rude
+रचना||
+लपटें||
+नागपुर||Nagpur (a city)
+ब्रिटिश||British
+सँग||
+वार||
+पेशवा||
+जवानी||youth
+वज्र-निपात||
+मंदरा||
+बेजार||
+हरषाया||
+अमर||
+फहराया||
+काना||
+निःसन्तान||
+इतिहास-गगन||
+सन्मुख||
+कुरबानी||marytr (give up life)
+नारी||women
+छबीली||
+सिंहनी||
+हाय||
+छापते||
+ताँतिया||
+पुलकित||
+ज्योति||
+सुलगाई||
+विधवा||widow (husband is dead)
+लावारिस||
+उदैपुर||Udaipur (a city)
+द्वंद्व||
+सत्तावन||
+सबने||
+जनरल||General
+गोलों||
+झाँसी||Jhansi
+बुंदेले||
+स्मारक||
+फॉरेन||Foreign
+थककर||
+हड़प||
+यमुना-तट||Yamuna bank
+अभिमान||
+आह्नान||
+ब्रह्म||
+लेफ्रि़||Lefre
+अभिराम||
+विजयी||
+परदे||curtain
+व्यापारी||trader
+गाथा||
+भृकुटी||
+विषम||
+ग्वालियर||Gwalior (a city)
+स्वर्ग||
+चित्र||
+अर्जुन||Arjun
+राजवंशों||
+कहलाती||
+रण-चंडी||
+लक्ष्मीबाई||Laxmi Bhai
+दिव्य||Divya
+दीप||
+खिलवार||
+स्मिथ||
+इतिहास||Historic
+मद्रास||Madras (old name of Chennai)
+सरनाम||
+अविनाशी||
+संग||
+छबीली||
+स्वतंत्रता-महायज्ञ||Master of freedom
+सगाई||
+बिकते||
+सुभट||
+अनुनय||persuade
+सौभाग्य||good luck
+उकसानी||poke (provoke)
+मेरठ||Meerut (a city)
+बलिदान||sacrifice
+कानपुर||Kanpur (a city)
+बिसात||Chessboard
+घेरना||surround
+मौलवी||Muslim religious person
+मर्दानी||man
+ठाकुर||Village head
+फ़ाँसी||hanging
+तेइस||23
+फिरंगी||foreigner
+जबलपुर||Jabalpur (a city)
+बरछी||spear
+सैनिकों||soldiers
+सिंहासन||throne
+व्यूह||array
+कुँवरसिंह||Kuvar Singh
+दुर्ग||Durga
+पसारे||reach out
+मनुज||Manoj
+वीरता||courage
+शत्रु||enemy
+अंग्रेजों||British
+सहेली||Girl friends
+दिल्ली||Delhi
+ब्याह||marriage
+बधाई||Congratulations
+नागपुर||Nagpur (a city)
+नौलख||A place
+पथ||route
+मैदानों||fields
+सिंध||Sindh (a district)
+कृपाण||Saber
+वारिस||hier
+हैरानी||surprise
+अमिट||perfect
+बंगाले||Bengal
+विनय||shy
+अनुनय||persuade
+वॉकर||Walker
+अहमद||Ahmed
+अश्रुपूर्ण||tearful
+कालगति||
+उजयाली||
+टनेन्ट||Tenant
+मँहु||
+मर्दानों||
+ठानी||fix
+ज्वाला||flame
+कालपी||
+जबानी||words
+फ़ौजे||armour
+बिकानी||
+आराध्य||adorable
+तंजोर||Tanjore (a city)
+किंतु||but
+अंतरतम||inner most
+कृतज्ञ||grateful
+लखनऊ||Lucknow (capital of UP)
+खाई||ditch
+रजधानी||capital
+वेदना||pain
+पंजाब||Punjab
+शाह||Shah
+शिवाजी||Shivaji
+अजब||strange
+कुटियों||hut
+शोक-समानी||mourning
+झोपड़ी||hut
+खुशियाँ||happiness
+करनाटक||Karnataka
+सिंधिया||From Sindh
+सतारा||Satara (a city)
+जख्मी||injured
+बहुतेरे||many
+जुर्म||crime
+नव्वाबों||Nawabs
+पटना||Patna (capital of Bihar)
+स्वतंत्रता||freedom
+कलकत्ते||Calcutta (capital of West Bengal)
+चिनगारी||spark
+कोल्हापुर||Kohlapur (a city)
+देशी||native
+ठुकराया||rejected
+घिर||surround
+जेवर||jewelry
+सवारी||passengers
+महलों||palaces
+गहने-कपड़े||ornaments-clothes
+पहचानी||recognize
+सिधार||cigar
+सरे-आम||openly
+वीर-गति||heroic speed
+घात||ambush
+डलहौजी||Dalhousie
+सैन्य||military
+अखबार||newspaper
+चूडि़याँ||bangles
+देहली||Delhi
+धुंधूपंत||smoky
+भवानी||Bhavani
+छाई||spread
+सखियाँ||girl friends
+गुमी||lost
+मर्द||man
+इज्जत||respect
+अजीमुल्ला||Aji Mulha
+गम||sorrow
+राजाओं||Kings
+भाले||spear
+सुनीं||listened
+अतिकाय||Inexhaustible
+घमंड||show off
+न्याय||justice
+खड़||steep
+धारा||stream
+चिकित्सा||treatment
+सूर्योदय||sunrise
+सुलह||compromise
+पृथ्वी||Earty
+थर्रा||tremble
+खलबली||panic
+सौम्य||gentle
+हताशा||desperation
+चिघाड़||scream
+सि्ांह||Lion
+बूटी||herb
+पराक्रमी||mighty
+उपचार||treatment
+नेतृत्व||lead
+अभेद्य||cannot pass through
+ताबड़तोड़||sub-division
+टल||delay
+अंक||point
+जयकार||cheer
+रत्नों-मणियों||beads
+कौंध||uncomfortable
+सदा||always
+उत्सुकता||curious
+गर्व||pride
+सत्य||truth
+डिगा||move
+सुंदरता||beauty
+पुल||bridge
+जयघोष||hail
+संरचना||structure
+परास्त||defeated
+चमत्कृत||miracle
+कल्पनाओं||imagination
+महानता||greatness
+हड़बड़ाकर||fluttering
+देशद्रोह||traitor
+अन्याय||injustice
+चुहल||chatter
+कमान||bow
+महाविनाश||great destruction
+वैद्य||doctor
+घायलों||injured
+युद्धनाद||war
+बिलबिलाता||bubbly
+बहा||shed
+भरती||recruit
+रिसाव||leak
+कँकड़||stones
+रणक्षेत्र||battlefield
+नष्ट||destroy
+सावधान||warn
+अभियान||campaign
+अशुभ||impure
+घाव||wound
+हिनहिनाहट||neighing
+मस्तक||head
+बरसात||rain
+विस्मय||astonished
+सूझा||suit
+बरसने||rain
+कल्याण||good
+चीत्कार||scream
+मुठभेड़||meeting
+कूच||march
+परिवर्तित||changed
+पक्ष||party
+रत्ती||bit
+ध्वजा||flag
+विकल्प||option
+हर्ष-ध्वनि||happy sound
+कराहते||groan
+विश्वासघात||bretrayal
+पराजय||defeated
+भंडार||store
+भाँति||like
+समाप्त||end
+मशालें||torches
+एकमात्र||only
+ठान||strain
+फुफकारते||puffing
+प्रहस्त||handy
+अंत्येष्टि||funeral
+डेरा||camp
+चर्चाएँ||discussions
+पश्चाताप||feel sad
+गुप्त||hidden
+रक्त||blood
+नियम||customs
+जटित||studded
+दहला||frightening
+अन्यथा||otherwise
+आपसे||from you
+शरण||hide-out
+स्वर्ण-कलश||gold vase
+मिलवा||meet
+अहंकार||ego
+शंका||doubt
+अधीर||impatient
+आभार||gratitude
+अन्न||food
+हताश||desperate
+घुमाता||rotate
+महासंग्राम||struggle
+कातरता||timid
+लहरा||wave
+विभक्त||divide
+डस||sting
+शस्त्रें||weapons
+अचूक||accurate
+रौंदते||trample
+पलकें||eyelids
+अचेत||Unconscious
+भविष्य||future
+शस्त्रगार||armour
+चक्रवात||cyclone
+मूर्च्छित||faint
+मूर्च्छा||Unconscious
+अनाथ||orphan
+योजनाओं||plans
+पताकाएँ||flags
+ध्वस्त||demolished
+दुर्बल||weak
+घातक||deadly
+शिविर||camp
+बूते||strength
+स्वस्थ||fit
+सर्वव्याप्त||everywhere
+बँधा||tight
+बह||flow
+सहायकों||helpers
+शव||dead body
+रणभूमि||battlefield
+किलकारियों||killers
+फूँक||frown
+उत्पन्न||create
+रणनीति||Strategy
+अक्षम||disabled
+दहाड़ती||boat
+ध्वनियाँ||sounds
+हिम्मत||courage
+कहलाया||called as
+निरीक्षण||inspection
+मुकुट||crown
+सत्कार||respect
+चमचमाता||glittering
+सहारा||help
+अनुरूप||according
+गूँज||echo
+तत्पर||ready
+शुभचि्ांतक||well-intentioned
+दाहिना||right
+ट्टषि-मुनियों||saints
+स्वभाव||nature
+भोगना||reap
+मौजूद||present
+संक्षेप||summary
+गद्दी||seat
+सुप्रसिद्ध||well known
+कीर्तिमान||record
+चौसर||game
+परीक्षित||tested
+आदेशानुसार||by order
+नीति||policy
+प्रमुख||chief
+जन्म||birth
+लौटे||returned
+शर्त||bet
+कंठस्थ||memorize
+अपराध||crime
+अंधे||blind
+यज्ञ||prayer
+विचित्रवीर्य||extravagance
+जाती||group
+प्रकार||type
+समय||time
+आम||ordinary
+सभा||assembly
+मधुर||delicious
+प्रसार||spreading
+वैरभाव||hotility
+प्रारंभ||start
+सोलह||16
+समस्त||all
+अनुसार||according
+बिताकर||to spend
+अनाथ||orphan
+शिष्यों||disciples
+साम्राज्य||empire
+इंकार||refuse
+सौंप||entrust
+पालन-पोषण||upbringing
+प्रायश्चित||atonment
+छिन||minus
+अध्यक्ष||director
+मोह||temptation
+तरफ||directoin
+कष्ट||pain
+युद्ध||war
+पाँचों||5
+फलस्वरूप||Consequently
+राज्य||kingdom
+महायज्ञ||master
+पौराणिक||Mythological
+कुमारों||boys
+अकाल||famine
+वनवास||exile
+सूत||yarn
+द्वारा||by
+रिवाज||custom
+लालची||greedy
+बुद्धि||wisdom
+तपस्या||austerity
+मशहूर||famous
+संधि||treaty
+विशाल||huge
+वेद||writings
+शांति||peace
+पोते||grandchildren
+प्रखर||intense
+शरीर||body
+हिस्से||parts
+मृत्यु||death
+अतः||so
+छत्तीस||36
+बारह||12
+पढ़ाया-||taught
+मानव-जाति||human kind
+मुताबिक||according to
+बाजियाँ||market
+दिन-पर-दिन||day by day
+चौपड़||four way
+अज्ञातवास||unknown
+कुटिल||evil
+शिष्य||student
+तेरह||13
+कथा||story
+देन||gift

@@ -1,4 +1,3 @@
-import argparse
 from googletrans import Translator
 import csv
 
@@ -11,8 +10,8 @@ class InvalidFieldsNamesInWordMeaningFile(Exception):
     pass
 
 
-def check_for_duplicates(source_dir):
-    with open(source_dir + "/word-meaning.txt", 'r', encoding="UTF-8") as word_meaning_r:
+def check_for_duplicates():
+    with open("word-meaning.txt", 'r', encoding="UTF-8") as word_meaning_r:
         reader = csv.DictReader(word_meaning_r, delimiter='|')
         bad_fieldnames = []
         if "word" not in reader.fieldnames:
@@ -31,20 +30,25 @@ def check_for_duplicates(source_dir):
             else:
                 word_list.append(row['word'])
         if len(duplicates):
-            raise DuplicateWordsException("The following duplicate words were found in " + source_dir + "/word-meaning.txt" + + ":\n".join(duplicates))
+            raise DuplicateWordsException("The following duplicate words were found in word-meaning.txt:\n" + "\n".join(duplicates))
 
 
-def main(source_dir):
+def main():
     try:
-        check_for_duplicates(source_dir)
+        check_for_duplicates()
         translator = Translator()
         translation_items = []
-        with open(source_dir + "/word-meaning.txt", 'r', encoding="UTF-8") as word_meaning_r:
+        trans = translator.translate("रविवार", dest='en', src='hi')
+        with open("word-meaning.txt", 'r', encoding="UTF-8") as word_meaning_r:
             reader = csv.DictReader(word_meaning_r, delimiter='|')
             for row in reader:
+                if row['word'] == "द्वारपाल":
+                    print(0)
                 # if meaning is available and not translation, then translate from meaning
                 # if meaning and translation are not available, then translate from word
                 # if meaning and translation are both available, do nothing
+                if str(row['word']).strip() == "":
+                    continue
                 translation = row['translation']  # default
                 if row['meaning'] and not row['translation']:
                     trans = translator.translate(row['meaning'], dest='en', src='hi')
@@ -57,7 +61,7 @@ def main(source_dir):
                 else:
                     translation_items.append({'word': row['word'], 'meaning': "", "translation": translation})
                 print(row['word'])
-        with open(source_dir + "/word-meaning.txt", 'w', newline='', encoding="UTF-8") as word_meaning_w:
+        with open("word-meaning.txt", 'w', newline='', encoding="UTF-8") as word_meaning_w:
             fieldnames = ['word', 'meaning', 'translation']
             writer = csv.DictWriter(word_meaning_w, fieldnames=fieldnames, delimiter='|')
             writer.writeheader()
@@ -72,8 +76,5 @@ def main(source_dir):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-sd", "--sourcedir", help="Please enter a source dir as argument")
-    args = parser.parse_args()
-    main(args.sourcedir)
+    main()
     print("all done!")

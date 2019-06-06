@@ -5,7 +5,7 @@ import csv
 
 
 def word_meaning_translation(source_dir):
-    trans_file = source_dir + "/../word-meaning.txt"
+    trans_file = source_dir + "/../../word-meaning.txt"
     if os.path.exists(trans_file):
         word_meanings_trans = {}
         words = []
@@ -19,7 +19,7 @@ def word_meaning_translation(source_dir):
 
 
 def get_blacklisted_words(source_dir):
-    with open(source_dir + "/../word-black-list.txt", 'r', encoding="UTF-8") as text_h:
+    with open(source_dir + "/../../word-black-list.txt", 'r', encoding="UTF-8") as text_h:
         return [blacklisted_word.rstrip() for blacklisted_word in text_h]
 
 

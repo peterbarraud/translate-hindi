@@ -51,7 +51,7 @@ class WordMeaningDetails:
 
 
 def word_meaning_translation(source_dir):
-    trans_file = source_dir + "/../word-meaning.txt"
+    trans_file = source_dir + "/../../word-meaning.txt"
     if os.path.exists(trans_file):
         word_meanings_trans = {}
         words = []
