@@ -29,7 +29,8 @@ def main(source_dir):
     blacklisted_words = get_blacklisted_words(source_dir)
     overlap_words = [overlap_word for overlap_word in difficult_words if overlap_word in blacklisted_words]
     if len(overlap_words) > 0:
-        print("The following difficult words are also in the list of blacklisted words.")
+        print("The following words were found in the black-list as well as the word-meaing files")
+        print("Words must be in either one or the other")
         print("The procedure will NOT run. Please correct these errors first.")
         print("\n".join(overlap_words))
     else:

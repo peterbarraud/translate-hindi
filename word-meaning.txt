@@ -1670,7 +1670,7 @@ word|meaning|translation
 जाती||group
 प्रकार||type
 समय||time
-आम||ordinary
+आम||ordinary or mango
 सभा||assembly
 मधुर||delicious
 प्रसार||spreading
@@ -1732,3 +1732,51 @@ word|meaning|translation
 तेरह||13
 कथा||story
 देन||gift
+तरफ||direction
+शिक्षा||study
+विरक्त||devoid
+मुसकराई||laughed
+चूमा||kissed
+रुकी||stopped
+अवश्य||definitely
+मानेंगे||agree
+बौछार||shower
+खेलते-खेलते||playing
+राजन्||king
+तेजस्वी||bright
+नवयौवन||new age
+अकारण||without reason
+पुरस्कार||call
+बाणों||arrows
+आठवाँ||8th
+क्षोभ||apologize
+परवाह||care
+आश्चर्य||surprised
+मुकाबला||competition
+गठीला||knot
+शर्तें||terms
+बहती||flowing
+मालूम||know
+रण-कौशल||tactics
+पालूँगी||take care
+हटा||move
+शास्त्र-ज्ञान||Scientific knowledge
+दंग||riot
+प्रचंड||huge
+भोग-विलास||luxury
+घृणित||disgusting
+बालक||child
+अभिनय||acting
+अज्ञात||unknown
+पैदा||born
+माननी||respect
+युवती||young woman
+माथा||forehead
+ठहर||stop
+हँसती-मुसकराती||laughing
+जाइए||go
+जीने||live
+राजनीतिज्ञ||politician
+फेंकूँगी||throw
+युवक||young boy
+विख्यात||famous
