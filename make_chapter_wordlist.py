@@ -27,6 +27,7 @@ def main(source_dir):
     # first an important check to ensure that blacklisted words are not in the word-meaning file
     difficult_words, _ = word_meaning_translation(source_dir)
     blacklisted_words = get_blacklisted_words(source_dir)
+    word_count = 0
     overlap_words = [overlap_word for overlap_word in difficult_words if overlap_word in blacklisted_words]
     if len(overlap_words) > 0:
         print("The following words were found in the black-list as well as the word-meaing files")
@@ -48,8 +49,10 @@ def main(source_dir):
                 fieldnames = ['word', 'meaning', 'translation']
                 writer = csv.DictWriter(words_w, fieldnames=fieldnames, delimiter='|')
                 writer.writeheader()
+                word_count = len(chapter_words)
                 for chapter_word in chapter_words:
                     writer.writerow({"word": chapter_word, "meaning": "", "translation": ""})
+    return word_count
 
 
 if __name__ == "__main__":
@@ -57,7 +60,7 @@ if __name__ == "__main__":
     parser.add_argument("-sd", "--sourcedir", help="Please enter a source dir as argument")
     args = parser.parse_args()
     try:
-        main(args.sourcedir)
+        word_count = main(args.sourcedir)
     except FileNotFoundError as file_not_found_error:
         print(file_not_found_error)
     except ValueError as value_error:
@@ -66,4 +69,5 @@ if __name__ == "__main__":
         print(index_err)
     except:
         print(sys.exc_info()[0])
-    print("all done!")
+    print("all done! for: {}".format(args.sourcedir))
+    print("Word count: {}".format(word_count))

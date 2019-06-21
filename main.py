@@ -189,4 +189,4 @@ if __name__ == "__main__":
         print(file_not_found_error)
     except:
         print(sys.exc_info()[0])
-    print("all done!")
+    print("all done! for: {}".format(os.path.basename(args.sourcedir)))
