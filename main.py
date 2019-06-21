@@ -4,6 +4,10 @@ import re
 import sys
 
 
+class TranslationNotFoundError(Exception):
+    pass
+
+
 class ChapterLine:
     def __init__(self, line):
         self.__line = line
@@ -53,15 +57,21 @@ class WordMeaningDetails:
 def word_meaning_translation(source_dir):
     trans_file = source_dir + "/../../word-meaning.txt"
     if os.path.exists(trans_file):
+        no_meanings = []
         word_meanings_trans = {}
         words = []
         with open(trans_file, 'r', encoding="UTF-8") as word_meaning_r:
             for line in word_meaning_r:
+                if line.rstrip().split("|")[2] == '':
+                    no_meanings.append(line.rstrip().split("|")[0])
                 word_meanings_trans[line.rstrip().split("|")[0]] = [line.rstrip().split("|")[0], line.rstrip().split("|")[1], line.rstrip().split("|")[2]]
                 words.append(line.rstrip().split("|")[0])
+        if len(no_meanings) > 0:
+            print("\n".join(no_meanings))
+            raise TranslationNotFoundError("The following words do not have meanings in the \"word-meaning.txt\". \nPlease fix that file and then proceed")
         return words, word_meanings_trans
     else:
-        raise FileNotFoundError("Could not find the translation file. Maybe you need to \"run translate\"")
+        raise FileNotFoundError("Could not find the translation file.")
 
 
 def get_sorted_word_meanings(chapter_line):

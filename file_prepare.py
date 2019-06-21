@@ -67,8 +67,8 @@ def get_split_file_contents(file_contents):
 def main(source_dir):
     if os.path.isfile(source_dir + "/text.txt"):
         raise FileFoundError(source_dir + "/text.txt" + " found in the destination folder. "
-                                                        "This is a destructive procedure so we never overwrite. "
-                                                        "If you really want to do this, "
+                                                        "\nThis is a destructive procedure so we never overwrite. "
+                                                        "\nIf you really want to do this, "
                                                         "delete the destination file manually.")
     else:
         with open(source_dir + "/source.txt", 'r', encoding="UTF-8") as text_h:

@@ -283,7 +283,7 @@ word|meaning|translation
 राज्याभिषेक||coronation
 युवराज||heir-apparent
 पद||position
-राज-काज||government affairs
+राज-काज||work
 शामिल||include
 जिम्मेदारी||responsibility
 निभा||take
@@ -776,7 +776,6 @@ word|meaning|translation
 अगस्त्य||August
 विघ्न||Disturbance
 वध||Slaughter
-चुके||Gone
 झपट्टा||snatch
 अपवित्र||Profane
 चेहरा||face
@@ -1196,7 +1195,6 @@ word|meaning|translation
 लगन||like
 यकीन||believe
 चुराने||steal
-मतलब||meaning
 अलमारी||cupboard
 हेकड़ी||hesitate
 कोशिश||try
@@ -1268,7 +1266,6 @@ word|meaning|translation
 काहे||why
 सवार||ride
 पुचकारा||console
-बघारी||
 चमत्कार||amazing
 नीची||low
 पाकिस्तान||Pakistan
@@ -1286,9 +1283,6 @@ word|meaning|translation
 घिरी||surrounded
 पुरखों||ancestors
 तानी||trick
-बुंदेलों||
-चेती||
-बिरानी||
 खूब||very
 वीरवर||mighty
 सच्चाई||truth
@@ -1296,86 +1290,28 @@ word|meaning|translation
 मराठे||People from Maharashtra
 नाला||drain
 कैद||prison
-बहिन||
-कटारी||
-मुदित||
 मुँहबोली||rude
-रचना||
-लपटें||
 नागपुर||Nagpur (a city)
 ब्रिटिश||British
-सँग||
-वार||
-पेशवा||
 जवानी||youth
-वज्र-निपात||
-मंदरा||
-बेजार||
-हरषाया||
-अमर||
-फहराया||
-काना||
-निःसन्तान||
-इतिहास-गगन||
-सन्मुख||
 कुरबानी||marytr (give up life)
 नारी||women
-छबीली||
-सिंहनी||
-हाय||
-छापते||
-ताँतिया||
-पुलकित||
-ज्योति||
-सुलगाई||
 विधवा||widow (husband is dead)
-लावारिस||
 उदैपुर||Udaipur (a city)
-द्वंद्व||
-सत्तावन||
-सबने||
 जनरल||General
-गोलों||
 झाँसी||Jhansi
-बुंदेले||
-स्मारक||
 फॉरेन||Foreign
-थककर||
-हड़प||
 यमुना-तट||Yamuna bank
-अभिमान||
-आह्नान||
-ब्रह्म||
 लेफ्रि़||Lefre
-अभिराम||
-विजयी||
 परदे||curtain
 व्यापारी||trader
-गाथा||
-भृकुटी||
-विषम||
 ग्वालियर||Gwalior (a city)
-स्वर्ग||
-चित्र||
 अर्जुन||Arjun
-राजवंशों||
-कहलाती||
-रण-चंडी||
 लक्ष्मीबाई||Laxmi Bhai
 दिव्य||Divya
-दीप||
-खिलवार||
-स्मिथ||
 इतिहास||Historic
 मद्रास||Madras (old name of Chennai)
-सरनाम||
-अविनाशी||
-संग||
-छबीली||
 स्वतंत्रता-महायज्ञ||Master of freedom
-सगाई||
-बिकते||
-सुभट||
 अनुनय||persuade
 सौभाग्य||good luck
 उकसानी||poke (provoke)
@@ -1421,17 +1357,11 @@ word|meaning|translation
 वॉकर||Walker
 अहमद||Ahmed
 अश्रुपूर्ण||tearful
-कालगति||
-उजयाली||
 टनेन्ट||Tenant
-मँहु||
-मर्दानों||
 ठानी||fix
 ज्वाला||flame
-कालपी||
 जबानी||words
 फ़ौजे||armour
-बिकानी||
 आराध्य||adorable
 तंजोर||Tanjore (a city)
 किंतु||but
@@ -1654,8 +1584,8 @@ word|meaning|translation
 गद्दी||seat
 सुप्रसिद्ध||well known
 कीर्तिमान||record
-चौसर||game
-परीक्षित||tested
+चौसर||gamble
+परीक्षित||Pareekshit
 आदेशानुसार||by order
 नीति||policy
 प्रमुख||chief
@@ -1666,7 +1596,7 @@ word|meaning|translation
 अपराध||crime
 अंधे||blind
 यज्ञ||prayer
-विचित्रवीर्य||extravagance
+विचित्रवीर्य||Vichitraveer
 जाती||group
 प्रकार||type
 समय||time
@@ -1694,14 +1624,14 @@ word|meaning|translation
 कष्ट||pain
 युद्ध||war
 पाँचों||5
-फलस्वरूप||Consequently
+फलस्वरूप||Result
 राज्य||kingdom
 महायज्ञ||master
 पौराणिक||Mythological
 कुमारों||boys
 अकाल||famine
 वनवास||exile
-सूत||yarn
+सूत||Sooth
 द्वारा||by
 रिवाज||custom
 लालची||greedy
@@ -1710,7 +1640,6 @@ word|meaning|translation
 मशहूर||famous
 संधि||treaty
 विशाल||huge
-वेद||writings
 शांति||peace
 पोते||grandchildren
 प्रखर||intense
@@ -1723,7 +1652,7 @@ word|meaning|translation
 पढ़ाया-||taught
 मानव-जाति||human kind
 मुताबिक||according to
-बाजियाँ||market
+बाजियाँ||turn
 दिन-पर-दिन||day by day
 चौपड़||four way
 अज्ञातवास||unknown
@@ -1741,7 +1670,6 @@ word|meaning|translation
 अवश्य||definitely
 मानेंगे||agree
 बौछार||shower
-खेलते-खेलते||playing
 राजन्||king
 तेजस्वी||bright
 नवयौवन||new age
@@ -1756,7 +1684,6 @@ word|meaning|translation
 गठीला||knot
 शर्तें||terms
 बहती||flowing
-मालूम||know
 रण-कौशल||tactics
 पालूँगी||take care
 हटा||move
@@ -1788,8 +1715,6 @@ word|meaning|translation
 कोई-न-कोई||somebody
 कहलाए||called
 माँगोगे||ask
-कितु||
-बने||
 जानकर||knowing
 पुत्री||daughter
 राजवंश||dynasty
@@ -1841,51 +1766,39 @@ word|meaning|translation
 झूठी||false
 जँची||test
 कन्याओं||girls
-प्रबंध||
-अवहेलना||
-गंधर्व||
-ब्राह्मणों||
-प्रविष्ट||
-अंबा||
-काशिराज||
-फिरी||
-स्वयंवर-मंडप||
-क्षत्रियों||
-मिन्नतें||
-लाचार||
+प्रबंध||manage
+अवहेलना||neglect
+प्रविष्ट||entered
+फिरी||turn
+स्वयंवर-मंडप||Self-propulsion
+मिन्नतें||ministers
+लाचार||helpless
 हार-जीत||win lose
-अद्वितीय||
-छिड़||
-सम्मिलित||
-प्रतिष्ठा||
-राजी||
-विवाह-मंडप||
-शिखंडी||
-विद्वान||
+अद्वितीय||unique
+छिड़||start
+सम्मिलित||included
+प्रतिष्ठा||prestige
+राजी||agree
+विवाह-मंडप||Wedding pavilion
+शिखंडी||Lord Vishnu
+विद्वान||scholoar
 होनेवाली||about to happen
-पराजित||
-जितेंद्रिय||
-बालिग||
-फब्तियाँ||
-फेर||
-शाल्व||
-निश्चय||
-सि-पफऱ्||
+पराजित||defeated
+बालिग||adult
+फब्तियाँ||quality
+फेर||round
+निश्चय||decision
 भीख||beg
-अनुरोध||
-गांगेय||
-प्रतिहिसा||
+अनुरोध||request
+गांगेय||Galactic
+प्रतिहिसा||Counterpart
 देश-विदेश||countries
-बलपूर्वक||
-प्रण||
-वरन्||
+प्रण||promise
 मैदान||field
-योद्धाओं||
-भरतवंशी||
+योद्धाओं||warriors
 कन्या||girl
 गिरे||surround
 महान||great
-काशिराज-कन्ये||
 बेचारी||poor thing
 साफ़||clear
 माँगती||request
@@ -2009,12 +1922,9 @@ word|meaning|translation
 तंग||worry
 हँसी-मजाक||joking
 नशे||drunk
-जकड़ा||
-पटती||
 जरूर||definitely
 खेलकूद||play
 धूमधाम||big show
-चूर||
 खेले-तैरे||play
 राजनीति-कुशल||Politically skilled
 बहता||flowing
@@ -2166,7 +2076,6 @@ word|meaning|translation
 निःशंक||unsure
 दलीलों||beg
 कुशलता||skill
-वारणावत||
 उकसाने||ablaze
 सत्ता||power
 ललचाया||tempt
@@ -2273,3 +2182,87 @@ word|meaning|translation
 विघ्न-बाधाओं||hinderance
 बाट||share
 हथियार||weapon
+पुष्टि||confirm
+भस्म||consume
+दृढ़||firm
+उद्धरणों||quotes
+पुरवासी||occupant
+सलाहकार||advisor
+कूटनीतिज्ञों||diplomats
+अधीन||under
+धर्मानुसार||accordingly
+ईर्ष्या||envy
+साथियों||companions
+भेद||distinction
+चौकन्ने||alert
+सफलता||success
+वंचित||deprived
+प्रमाणों||evidence
+गुणवान||talented
+शक्ति-संपन्न||power hungry
+मोम||wax
+चरबी||fat
+पांडु-पुत्रें||sons of Pandav
+अंकुश||curb
+कुमंत्रणा||mischief
+भतीजों||newphew
+राजनीतिक||political
+सहा||suffer
+चौराहों||intersection
+लोकप्रियता||popularity
+मुख्य||main
+न्यायपूर्वक||justly
+सन||flax
+स्थिर||stable
+शीघ्रगामी||speedy
+भवन||building
+सभा-समाजों||meetings
+ऐश्वर्यवान||luxurious
+पृष्ठ-पोषकों||servants
+बहिन||sister
+रचना||made up of
+सँग||with
+वार||attack
+अमर||immortal
+हाय||omg
+लावारिस||unclaimed
+द्वंद्व||dual
+सत्तावन||57
+हड़प||kidnap
+अभिमान||pride
+आह्नान||inhuman
+अभिराम||pleasure
+विजयी||victorious
+विषम||odd
+स्वर्ग||heaven
+चित्र||picture
+राजवंशों||dynasty
+संग||with
+किंतु||but
+बलपूर्वक||forcefully
+काशिराज-कन्ये||girls of the Kashi kingdom
+जकड़ा||fasten
+पटती||friendship
+चूर||crushed
+मेले||fair
+भीष्म||bheeshm
+पितामह||grandfather
+शुकदेव||Shukdev
+वैशंपायन||Vaishampayan
+शौनक||Shaunak
+शांतनु||Shantanu
+चित्रंगद||Chitrangad
+धृतराष्ट्र||Dhritarashtra
+पांडु||Pandu
+कुंती||Kunti
+माद्री||Madri
+पांडवों||Pandavas
+युधिष्ठिर||Yudhisthira
+हस्तिनापुर||Hastinapur
+कौरव||Kaurav
+कौरव-सेना||Kaurav army
+इंद्रप्रस्थ||Indraprastha
+कौरवों||Kauravas
+द्रौपदी||Draupadi
+दुर्योधन||Duryodhana
+पारावार||limit
