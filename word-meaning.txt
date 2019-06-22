@@ -1517,7 +1517,7 @@ word|meaning|translation
 दहला||frightening
 अन्यथा||otherwise
 आपसे||from you
-शरण||hide-out
+शरण||protection
 स्वर्ण-कलश||gold vase
 मिलवा||meet
 अहंकार||ego
@@ -1715,7 +1715,6 @@ word|meaning|translation
 कोई-न-कोई||somebody
 कहलाए||called
 माँगोगे||ask
-जानकर||knowing
 पुत्री||daughter
 राजवंश||dynasty
 पूछा-पिता||father-son
@@ -1740,7 +1739,7 @@ word|meaning|translation
 नागवार||unblessed
 पितृभक्त||paternal
 कठोर||hard
-सत्यवती||truthful
+सत्यवती||Satyavati
 भयंकर||frightful
 व्यथा||sorrow
 कुशाग्र-बुद्धि||intelligent mind
@@ -1752,12 +1751,11 @@ word|meaning|translation
 तरुणी||girl
 आजन्म||today
 विराग||disfavour
-ठोकरें||dusting
+ठोकरें||rejection
 जीती||won
 अवहेलना-सी||neglect
 स्त्री-रूप||feminine form
 दिलाकर||get
-होनेवाला||happen
 राजपुत्रियों||princes
 राजकन्याओं||princesses
 अनुरुक्त||affectionate
@@ -1770,8 +1768,7 @@ word|meaning|translation
 अवहेलना||neglect
 प्रविष्ट||entered
 फिरी||turn
-स्वयंवर-मंडप||Self-propulsion
-मिन्नतें||ministers
+मिन्नतें||request
 लाचार||helpless
 हार-जीत||win lose
 अद्वितीय||unique
@@ -1780,9 +1777,8 @@ word|meaning|translation
 प्रतिष्ठा||prestige
 राजी||agree
 विवाह-मंडप||Wedding pavilion
-शिखंडी||Lord Vishnu
+शिखंडी||Shikhandi
 विद्वान||scholoar
-होनेवाली||about to happen
 पराजित||defeated
 बालिग||adult
 फब्तियाँ||quality
@@ -1791,7 +1787,7 @@ word|meaning|translation
 भीख||beg
 अनुरोध||request
 गांगेय||Galactic
-प्रतिहिसा||Counterpart
+प्रतिहिसा||revenge
 देश-विदेश||countries
 प्रण||promise
 मैदान||field
@@ -1822,7 +1818,7 @@ word|meaning|translation
 लड़ते||fight
 स्वेच्छाचारी||Unwholesome
 ज्ञानी||brainy
-स्वयंवर||autonomous
+स्वयंवर||Wedding ceremony
 वृत्तांत||story
 मनोनीत||nominated
 वश||habit
@@ -2450,3 +2446,151 @@ word|meaning|translation
 आकांक्षा||want
 मगधदेश||Magadh
 पदवी||title
+भाई-बंधुओं||brothers
+बगल||next to
+बिगाड़ा||spoit
+पीला-सा||yellow
+बजाए||instead
+टालूँगा||put off
+हवाले||responsible
+घुटने||knees
+खिलाड़ी||player
+आपसी||themselves
+एकबारगी||once
+ठाट-बाट||that way
+वैर-विरोध||against
+बंधु||brothers
+अश्वत्थामा||Ashwathama
+चतुराई||clever
+असह्य||Unbearable
+महावीर||Mahavir
+सता||trouble
+सोमदत्त||Somadut
+ईजाद||make up
+उद्देश्य||meaning
+मँजा||mad
+जीना||live
+टेक||kneel
+स्मरण||reminder
+यश-समृद्धि||Achievement
+शौक||interest
+मात्र||only
+ऐश्वर्य||Aishwarya
+जँच||test
+परम||main
+झगड़े-फसाद||fighting
+व्यर्थ||useless
+जुए||gamble
+उपभोग||use
+शपथ||promise
+सभा-मंडप||hall
+गुपचुप||sly
+जयद्रथ||Jayadrath
+बुरा-भला||good-bad
+झगड़े||fight
+खींचनें||pull
+झुककर||bow
+गुलाम||servant
+पिछली||previous
+भरत-वंश||Bharat-Vansh
+दास-दासी||servants
+विचारों||thoughts
+बड़े-बूढ़ों||elders
+क्रोध-प्रदर्शन||fits of anger
+तोड़-फोड़||destroy
+खचाखच||full
+नहा-धोकर||bathe
+मामले||things
+सोने-चाँदी||gold-silver
+छिः-छिः||yuck
+नियमों||customs
+वीरो||braves
+भुजाएँ||put off
+परिवार||family
+रीति||customs
+फेंककर||throw
+साधारण||easy
+हाँफता||puffing
+साँवले||questions
+बहाना||excuse
+संपत्ति||wealth
+भाषण||speach
+विश्राम-गृह||guest house
+संसारभर||worldwide
+परदा||curtain
+पंजे||fist
+झुका||bowed
+फड़क||difference
+बिछा||spread
+शरीरों||bodies
+उदासी||sad
+बकरियाँ||goats
+खास||special
+खजानों||treasures
+इशारों||signs
+स्वागत-सत्कार||welcome
+सँभालने||manage
+हक||right
+नियम-विरुद्ध||against customs
+बिखेर||scatter
+सज्जन||person
+भेड़||sheep
+खींचता||draw
+अवस्था||condition
+द्रुपदराज||Drupadraj
+रत्नों||Gems
+विद्याओं||arts
+विकल||confused
+भ्रम||myth
+ठहराता||stops
+युयुत्सु||Yuyutsu
+परेशानी||trouble
+आसन||position
+प्रातिकामी||early
+उदार-हृदय||liberal
+परिणाम||result
+मूल्यवान||valuable
+चाव||appitite
+विद्यमान||existing
+चीर||rag
+निमंत्रण||invitation
+धो||wash
+अजातशत्रु||Ajatashatru
+फटकारने||scold
+यथोचित||reasonable
+चेता||warning
+बहाए||shed
+कंपकंपी-सी||tremble
+दुष्टात्मा||Dushtaatma
+झल्ला||shake
+होंठ||lips
+दाँव||turn
+विकर्ण||Diagonal
+पतन||fall
+जोड़ीदार||partner
+कृप||please
+नियमपूर्वक||ordinary
+देवि||goddess
+लक्षणों||intensions
+न्यायोचित||justified
+बाजी||turn
+गुँथे||knot
+दुर्दशा||bad condition
+हर्षनाद||cheer
+दुर्दैव||doom
+वादे||promise
+धोखे||cheat
+उकसाया||provoke
+वयोवृद्ध||elderly
+अभिवादनादि||greetings
+नाहक||unwanted
+गँवा||lost
+जाल||trap
+प्रेरित||inspired
+दीन||poor
+आधार||base
+रथवान||charioteer
+सज्जनो||people
+घसीटता||drag
+परशुराम||Parashuram
+ब्रह्मचारी||Brahmachari
