@@ -1,7 +1,8 @@
 /.idea/
 /venv/
-*output.html
-*test*
+*.html
+*text.txt
 *word-meaning-trans.txt
 *output.pdf
 *words.txt
+*pdf
