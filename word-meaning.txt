@@ -2662,3 +2662,23 @@ word|meaning|translation
 बलिष्ठों||Galleons
 केले||banana
 घाटी||valley
+कण||Karan
+हजार||1000
+चूर-चूर||smashed
+रस्सी||rope
+खिला-पिलाकर||feed
+तालाब||lake
+चित्रसेन||Chitrasen
+बस्तियाँ||Colony
+अक्षयपात्र||eternal
+अनुचरों||following
+बिगड़े||spolit
+कृष्णा||Krishna
+पात्र||dish
+गणना||count
+परमात्मा||God of gods
+बस्तियों||colonies
+चौपायों||fours
+विजय-घोष||declared winner
+साग||green
+गंधर्वों||demigod
