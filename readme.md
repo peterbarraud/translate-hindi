@@ -59,3 +59,6 @@ You see the following in read Hindi text: \ufeff
 There is a problem with the file encoding
 ##Solution
 Open the file in Notepad++ and choose Encoding > Encode in UTF-8
+##Some hindi chars that must be replaced in the source.txt
+फ् = Nothing
+य् = Nothing
