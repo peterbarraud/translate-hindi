@@ -67,8 +67,7 @@ def word_meaning_translation(source_dir):
                 word_meanings_trans[line.rstrip().split("|")[0]] = [line.rstrip().split("|")[0], line.rstrip().split("|")[1], line.rstrip().split("|")[2]]
                 words.append(line.rstrip().split("|")[0])
         if len(no_meanings) > 0:
-            print("\n".join(no_meanings))
-            raise TranslationNotFoundError("The following words do not have meanings in the \"word-meaning.txt\". \nPlease fix that file and then proceed")
+            raise TranslationNotFoundError("The following words are present in the \"word-meaning.txt\" but don't have meanings. \nPlease fix विचित्र file and then proceed\n" + "\n".join(no_meanings))
         return words, word_meanings_trans
     else:
         raise FileNotFoundError("Could not find the translation file.")
@@ -114,9 +113,9 @@ def main(source_dir, only_english_translate):
                 words_in_line = line.split(" ")
                 for word_in_line in words_in_line:
                     # because we are splitting by space and not sentence,
-                    # the last word of a sentence comes with the पूर्ण विराम
-                    # so check for the last word but without the पूर्ण विराम
-                    if word_in_line[-1:] == '।' and word_in_line[:-1] in words:
+                    # the last word of a sentence comes with the पूर्ण विराम or other punctuation
+                    # so check for the last word but without the पूर्ण विराम  or other punctuation
+                    if (word_in_line[-1:] == '।' or word_in_line[-1:] == ',') and word_in_line[:-1] in words:
                         chapter_line.add_word_meaning(word_meanings[word_in_line[:-1]])
                     elif word_in_line in words:
                         chapter_line.add_word_meaning(word_meanings[word_in_line])
@@ -187,6 +186,8 @@ if __name__ == "__main__":
         main(args.sourcedir, bool(args.onlyenglish))
     except FileNotFoundError as file_not_found_error:
         print(file_not_found_error)
+    except TranslationNotFoundError as tnfe:
+        print(tnfe)
     except:
         print(sys.exc_info()[0])
     print("all done! for: {}".format(os.path.basename(args.sourcedir)))
